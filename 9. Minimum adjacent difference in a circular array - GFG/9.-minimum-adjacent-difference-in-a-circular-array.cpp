@@ -12,14 +12,12 @@ class Solution{
     // n: size of array
     int minAdjDiff(int arr[], int n){    
         // Your code here
-        int res=INT_MAX,curr_diff=0;
+        int res=abs(arr[n-1]-arr[0]),curr_diff=0;
         for(int i=1;i<n;i++)
         {
             curr_diff=abs(arr[i]-arr[i-1]);
             res=min(res,curr_diff);
         }
-        if(res>abs(arr[n-1]-arr[0]))
-        return abs(arr[n-1]-arr[0]);
         return res;
     }
 };
