@@ -4,21 +4,17 @@ public:
         int n=matrix.size();
         for(int row=0;row<n;row++)
         {
-            unordered_set<int>s;
+            vector<bool>rvis(n+1,false);
+            vector<bool>cvis(n+1,false);
             for(int col=0;col<n;col++)
-                s.insert(matrix[row][col]);
-            for(int i=1;i<=n;i++)
-                if(s.find(i)==s.end())
+            {
+                int r=matrix[row][col];
+                int c=matrix[col][row];
+                if(rvis[r]==true||cvis[c]==true)
                     return false;
-        }
-        for(int row=0;row<n;row++)
-        {
-            unordered_set<int>s;
-            for(int col=0;col<n;col++)
-                s.insert(matrix[col][row]);
-            for(int i=1;i<=n;i++)
-                if(s.find(i)==s.end())
-                    return false;
+                rvis[r]=true;
+                cvis[c]=true;
+            }
         }
         return true;
     }
