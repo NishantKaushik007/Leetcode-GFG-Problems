@@ -5,22 +5,18 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
 public:
-    bool bfs(int start,vector<int> adj[],vector<int>& col)
+    bool dfs(int start,int color,vector<int> adj[],vector<int>& col)
     {
-        queue<int>q;
-        q.push(start);
-        while(!q.empty())
+        col[start]=color;
+        for(int it:adj[start])
         {
-            int node=q.front();
-            q.pop();
-            for(int it:adj[node])
+            if(col[it]==-1)
             {
-                if(col[it]==-1)
-                {
-                    q.push(it);
-                    col[it]=!col[node];
-                }
-                else if(col[it]==col[node])
+                if(dfs(it,!color,adj,col)==false)
+                return false;
+            }
+            else if(col[it]==color)
+            {
                 return false;
             }
         }
@@ -32,7 +28,7 @@ public:
 	    {
 	        if(col[i]==-1)
 	        {
-	            if(bfs(i,adj,col)==false)
+	            if(dfs(i,0,adj,col)==false)
 	            return false;
 	        }
 	    }
