@@ -16,9 +16,11 @@ class Solution {
 	        for(int j=0;j<n;j++)
 	        {
 	            if(matrix[i][j]==-1)
-	            matrix[i][j]=1e9;
-	            if(i==j)
-	            matrix[i][j]=0;
+	            {
+	                matrix[i][j]=1e8;
+	                if(i==j)
+	                matrix[i][j]=0;
+	            }
 	        }
 	    }
 	    for(int k=0;k<n;k++)
@@ -35,8 +37,10 @@ class Solution {
 	    {
 	        for(int j=0;j<n;j++)
 	        {
-	            if(matrix[i][j]==1e9)
-	            matrix[i][j]=-1;
+	            if(matrix[i][j]==1e8)
+	            {
+	                matrix[i][j]=-1;
+	            }
 	        }
 	    }
 	}
