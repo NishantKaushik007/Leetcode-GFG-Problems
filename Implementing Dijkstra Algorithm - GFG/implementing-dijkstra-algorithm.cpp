@@ -10,10 +10,10 @@ class Solution
     //from the source vertex S.
     vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
     {
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
         vector<int>dis(V,1e9);
-        dis[S]=0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
         pq.push({0,S});
+        dis[S]=0;
         while(!pq.empty())
         {
             int node=pq.top().second;
@@ -21,12 +21,12 @@ class Solution
             pq.pop();
             for(auto it:adj[node])
             {
-                int w=it[1];
                 int adjNode=it[0];
-                if(d+w<dis[adjNode])
+                int wt=it[1];
+                if(dis[node]+wt<dis[adjNode])
                 {
-                    dis[adjNode]=d+w;
-                    pq.push({dis[adjNode],adjNode});
+                    dis[adjNode]=dis[node]+wt;
+                    pq.push({wt,adjNode});
                 }
             }
         }
