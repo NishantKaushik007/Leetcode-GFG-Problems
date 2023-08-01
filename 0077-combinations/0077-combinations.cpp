@@ -7,12 +7,12 @@ public:
             res.push_back(v);
             return;
         }
-        if(start>end)
-            return;
-        v.push_back(start);
-        solve(start+1,end,k-1,res,v);
-        v.pop_back();
-        solve(start+1,end,k,res,v);
+        for(int i=start;i<=end;i++)
+        {
+            v.push_back(i);
+            solve(i+1,end,k-1,res,v);
+            v.pop_back();
+        }
     }
     vector<vector<int>> combine(int n, int k) {
         vector<vector<int>>res;
