@@ -25,7 +25,7 @@ public:
                 
                 int rank   = i_rank + j_rank;
                 
-                if(connected[i][j] || connected[j][i]) {
+                if(connected[i][j] ) {
                     rank -= 1;
                 }
                 
