@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
-        for(int len=1;len<=s.length()/2;len++)
+        for(int len=s.length()/2;len>=1;len--)
         {
             string newStr="";
             if(s.length()%len==0)
