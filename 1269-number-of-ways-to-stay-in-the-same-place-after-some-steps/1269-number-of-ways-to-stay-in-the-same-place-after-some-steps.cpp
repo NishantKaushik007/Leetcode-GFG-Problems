@@ -21,7 +21,8 @@ public:
         return dp[pos][steps]=res;
     }
     int numWays(int steps, int arrLen) {
-        vector<vector<int>>dp(steps+1,vector<int>(steps+1,-1));
+        arrLen=min(steps,arrLen);
+        vector<vector<int>>dp(arrLen+1,vector<int>(steps+1,-1));
         return num(0,steps,arrLen,dp);
     }
 };
