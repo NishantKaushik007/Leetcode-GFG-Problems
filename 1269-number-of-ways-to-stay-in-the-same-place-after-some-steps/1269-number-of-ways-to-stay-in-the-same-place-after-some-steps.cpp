@@ -1,7 +1,8 @@
 class Solution {
 public:
     int mod=1e9+7;
-    int num(int pos,int steps,int arrLen,vector<vector<int>> &dp)
+    int dp[501][501];
+    int num(int pos,int steps,int arrLen)
     {
         if(steps==0)
         {
@@ -15,14 +16,14 @@ public:
         }
         if(dp[pos][steps]!=-1)
             return dp[pos][steps];
-        int res=num(pos,steps-1,arrLen,dp)%mod;
-        res=(res+num(pos-1,steps-1,arrLen,dp))%mod;
-        res=(res+num(pos+1,steps-1,arrLen,dp))%mod;
+        int res=num(pos,steps-1,arrLen)%mod;
+        res=(res+num(pos-1,steps-1,arrLen))%mod;
+        res=(res+num(pos+1,steps-1,arrLen))%mod;
         return dp[pos][steps]=res;
     }
     int numWays(int steps, int arrLen) {
-        arrLen=min(steps,arrLen);
-        vector<vector<int>>dp(arrLen+1,vector<int>(steps+1,-1));
-        return num(0,steps,arrLen,dp);
+        arrLen=min(arrLen,(steps/2+1));
+        memset(dp,-1,sizeof(dp));
+        return num(0,steps,arrLen);
     }
 };
