@@ -6,9 +6,7 @@ public:
         int prev=pref[0];
         for(int i=1;i<pref.size();i++)
         {
-            int num=prev^pref[i];
-            prev=prev^num;
-            ans.push_back(num);
+            ans.push_back(pref[i-1]^pref[i]);
         }
         return ans;
     }
