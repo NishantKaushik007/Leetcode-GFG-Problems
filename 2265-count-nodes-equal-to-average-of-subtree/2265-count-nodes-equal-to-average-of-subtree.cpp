@@ -11,23 +11,29 @@
  */
 class Solution {
 public:
-    int count=0;
-    pair<int,int> postOrder(TreeNode* root)
+    int res=0;
+    int findSum(TreeNode* root,int &count)
     {
         if(root==NULL)
-            return {0,0};
-        pair<int,int> left=postOrder(root->left);
-        pair<int,int> right=postOrder(root->right);
-        int nodeSum=left.first+right.first+root->val;
-        int nodeCount=left.second+right.second+1;
-        if(root->val==nodeSum/(nodeCount))
-        {
-            count++;
-        }
-        return {nodeSum,nodeCount};
+            return 0;
+        count++;
+        int leftSum=findSum(root->left,count);
+        int rightSum=findSum(root->right,count);
+        return leftSum+rightSum+root->val;
+    }
+    void solve(TreeNode* root)
+    {
+        if(root==NULL)
+            return;
+        int count=0;
+        int sum=findSum(root,count);
+        if(root->val==sum/count)
+            res+=1;
+        solve(root->left);
+        solve(root->right);
     }
     int averageOfSubtree(TreeNode* root) {
-        postOrder(root);
-        return count;
+        solve(root);
+        return res;
     }
 };
