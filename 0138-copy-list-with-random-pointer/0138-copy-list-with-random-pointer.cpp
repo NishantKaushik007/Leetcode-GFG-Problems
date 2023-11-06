@@ -36,7 +36,7 @@ public:
         {
             orignal->next=orignal->next->next;
             orignal=orignal->next;
-            copy->next=(copy->next)?copy->next->next:NULL;
+            copy->next=(copy->next)?copy->next->next:copy->next;
             copy=copy->next;
         }
         return temp;
