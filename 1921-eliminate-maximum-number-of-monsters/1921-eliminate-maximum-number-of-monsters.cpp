@@ -1,20 +1,20 @@
 class Solution {
 public:
     int eliminateMaximum(vector<int>& dist, vector<int>& speed) {
-        vector<float>arrival;
+        priority_queue<float,vector<float>,greater<float>>pq;
         for(int i=0;i<dist.size();i++)
         {
-            arrival.push_back((float)dist[i]/speed[i]);
+            pq.push((float)dist[i]/speed[i]);
         }
-        sort(arrival.begin(),arrival.end());
         int ans=0;
-        for(int i=0;i<arrival.size();i++)
+        while(!pq.empty())
         {
-            if(arrival[i]<=i)
+            if(pq.top()<=ans)
             {
                 break;
             }
             ans++;
+            pq.pop();
         }
         return ans;
     }
