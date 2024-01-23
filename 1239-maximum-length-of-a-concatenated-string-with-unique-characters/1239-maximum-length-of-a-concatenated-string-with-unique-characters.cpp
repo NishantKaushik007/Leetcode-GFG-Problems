@@ -13,7 +13,6 @@ public:
         {
             if(arr[s2[i]-'a']>0)
                 return true;
-            arr[s2[i]-'a']--;
         }
         return false;
     }
