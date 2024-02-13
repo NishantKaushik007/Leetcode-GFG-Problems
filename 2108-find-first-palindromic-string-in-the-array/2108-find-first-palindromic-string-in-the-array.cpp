@@ -9,15 +9,13 @@ public:
         return false;
     }
     string firstPalindrome(vector<string>& words) {
-        string s="";
         for(int i=0;i<words.size();i++)
         {
             if(isPalindrome(words[i],0,words[i].length()-1))
             {
-                s+=words[i];
-                break;
+                return words[i];
             }
         }
-        return s;
+        return "";
     }
 };
