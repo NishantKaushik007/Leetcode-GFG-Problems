@@ -6,17 +6,21 @@ public:
         for(int i=0;i<k;i++)
         {
             string chk=words[i];
-            string rev="";
-            int p= chk.length();
-            for(int i=p-1;i>=0;i--)
+            int p= words[i].length();
+            int j;
+            for(j=0; j<p/2;j++)
             {
-                rev=rev+chk[i];
+                if(chk[j]!=chk[p-(j+1)])
+                {
+                    break;
+                }
             }
-            if(chk==rev)
+            if(j==p/2)
             {
-                return rev;
+                return chk;
             }
         }
-        return "";
+     
+         return "";
     }
 };
