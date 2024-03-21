@@ -1,20 +1,18 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-        int n = nums.size();
-        if (n == 0) {
+    int solve(int ind,vector<int>& nums,vector<int>& dp)
+    {
+        if(ind<0)
             return 0;
-        }
-
-        vector<int> s0(2, 0);
-        vector<int> s1(2, 0);
-        s1[0] = nums[0];
-
-        for (int i = 1; i < n; i++) {
-            s0[i % 2] = max(s0[(i - 1) % 2], s1[(i - 1) % 2]);
-            s1[i % 2] = s0[(i - 1) % 2] + nums[i];
-        }
-
-        return max(s0[(n - 1) % 2], s1[(n - 1) % 2]);
+        if(dp[ind]!=-1)
+            return dp[ind];
+        int notTake=0+solve(ind-1,nums,dp);
+        int take=nums[ind]+solve(ind-2,nums,dp);
+        return dp[ind]=max(notTake,take);
+    }
+    int rob(vector<int>& nums) {
+        int n=nums.size();
+        vector<int>dp(n,-1);
+        return solve(n-1,nums,dp);
     }
 };
