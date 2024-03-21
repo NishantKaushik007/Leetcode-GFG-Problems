@@ -6,8 +6,6 @@ public:
         {
             return triangle[i][j];
         }
-        if(j>i)
-            return 1e8;
         if(dp[i][j]!=-1)
             return dp[i][j];
         int down=triangle[i][j]+solve(i+1,j,triangle,dp);
