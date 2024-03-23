@@ -5,14 +5,13 @@ public:
         while(low<=high)
         {
             int mid=(low+high)/2;
-            mini=min(mini,nums[mid]);
-            if(nums[mid]>nums[low])
+            if(nums[mid]>=nums[low])
             {
                 mini=min(mini,nums[low]);
                 low=mid+1;
             }
             else{
-                mini=min(mini,nums[high]);
+                mini=min(mini,nums[mid]);
                 high=mid-1;
             }
         }
