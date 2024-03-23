@@ -29,16 +29,16 @@ public:
         }
         for(curr=head;curr!=NULL;curr=curr->next->next)
         {
-            curr->next->random=(curr->random!=NULL)?curr->random->next:NULL;
+            curr->next->random=(curr->random)?curr->random->next:NULL;
         }
-        Node* orignal=head,*copy=head->next,*temp=copy;
-        while(orignal&&copy)
+        Node* orignal=head,*cpy=head->next,*temp=cpy;
+        while(orignal&&temp)
         {
             orignal->next=orignal->next->next;
             orignal=orignal->next;
-            copy->next=(copy->next)?copy->next->next:copy->next;
-            copy=copy->next;
+            temp->next=(temp->next)?temp->next->next:temp->next;
+            temp=temp->next;
         }
-        return temp;
+        return cpy;
     }
 };
