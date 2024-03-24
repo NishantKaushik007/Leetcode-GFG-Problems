@@ -15,9 +15,7 @@ public:
         dummy->next=head;
         ListNode* curr=dummy,*prev=dummy;
         while(n--)
-        {
             curr=curr->next;
-        }
         while(curr->next!=NULL)
         {
             curr=curr->next;
