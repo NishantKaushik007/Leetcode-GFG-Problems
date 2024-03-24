@@ -8,7 +8,7 @@ public:
         return totTime;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
-        int high=INT_MIN,low=1,ans=-1;
+        int high=INT_MIN,low=1;
         for(int x:piles)
             if(x>high)
                 high=x;
@@ -18,12 +18,11 @@ public:
             long long totHours=timeTaken(mid,piles);
             if(totHours<=h)
             {
-                ans=mid;
                 high=mid-1;
             }
             else
                 low=mid+1;
         }
-        return ans;
+        return low;
     }
 };
