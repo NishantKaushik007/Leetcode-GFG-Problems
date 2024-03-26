@@ -17,15 +17,13 @@ public:
         int len=1;
         while(curr->next!=NULL)
         {
-            curr=curr->next;
             len++;
+            curr=curr->next;
         }
         curr->next=head;
-        int r=len-(k%len);
-        while(r--)
-        {
+        len-=k%len;
+        while(len--)
             curr=curr->next;
-        }
         head=curr->next;
         curr->next=NULL;
         return head;
