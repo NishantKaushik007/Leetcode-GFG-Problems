@@ -2,7 +2,7 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n=height.size();
-        vector<int>left(n,0),right(n,0);
+        vector<int>left(n),right(n);
         left[0]=height[0],right[n-1]=height[n-1];
         for(int i=1;i<n;i++)
         {
@@ -11,9 +11,7 @@ public:
         }
         int water=0;
         for(int i=1;i<n-1;i++)
-        {
             water+=min(left[i],right[i])-height[i];
-        }
         return water;
     }
 };
