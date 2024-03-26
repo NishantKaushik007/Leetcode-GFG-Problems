@@ -12,7 +12,8 @@ public:
         if(head==NULL||head->next==NULL)
             return NULL;
         ListNode* slow=head,*fast=head;
-        while(fast!=NULL&&fast->next!=NULL){
+        while(fast!=NULL&&fast->next!=NULL)
+        {
             slow=slow->next;
             fast=fast->next->next;
             if(slow==fast)
@@ -21,10 +22,10 @@ public:
         if(fast!=slow)
             return NULL;
         fast=head;
-        while(fast!=slow)
+        while(slow!=fast)
         {
-            fast=fast->next;
             slow=slow->next;
+            fast=fast->next;
         }
         return slow;
     }
