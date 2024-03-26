@@ -15,9 +15,9 @@ public:
             return list2;
         if(list2==NULL)
             return list1;
-        ListNode* dummy=new ListNode();
         if(list1->val>list2->val)
             swap(list1,list2);
+        ListNode* dummy=new ListNode();
         dummy->next=list1;
         while(list1!=NULL&&list2!=NULL)
         {
