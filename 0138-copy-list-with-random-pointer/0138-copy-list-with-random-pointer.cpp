@@ -19,26 +19,24 @@ public:
     Node* copyRandomList(Node* head) {
         if(head==NULL)
             return head;
-        Node* curr,*nex;
+        Node* curr;
         for(curr=head;curr!=NULL;)
         {
-            nex=curr->next;
+            Node* nex=curr->next;
             curr->next=new Node(curr->val);
             curr->next->next=nex;
             curr=nex;
         }
         for(curr=head;curr!=NULL;curr=curr->next->next)
-        {
             curr->next->random=(curr->random)?curr->random->next:NULL;
-        }
-        Node* orignal=head,*cpy=head->next,*temp=cpy;
-        while(orignal&&temp)
+        Node* orignal=head,*copy=head->next,*ans=copy;
+        while(orignal&&copy)
         {
             orignal->next=orignal->next->next;
             orignal=orignal->next;
-            temp->next=(temp->next)?temp->next->next:temp->next;
-            temp=temp->next;
+            copy->next=(copy->next)?copy->next->next:copy->next;
+            copy=copy->next;
         }
-        return cpy;
+        return ans;
     }
 };
