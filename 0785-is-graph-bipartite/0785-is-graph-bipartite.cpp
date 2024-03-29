@@ -4,6 +4,7 @@ public:
     {
         queue<int>q;
         q.push(node);
+        col[node]=0;
         while(!q.empty())
         {
             int node=q.front();
