@@ -1,15 +1,15 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        vector<vector<int>>ans=image;
-        vector<vector<int>>vis(image.size(),vector<int>(image[0].size(),0));
+        int n=image.size(),m=image[0].size();
+        vector<vector<int>>ans=image,vis(n,vector<int>(m,0));
         int delRow[]={1,0,-1,0};
         int delCol[]={0,1,0,-1};
         queue<pair<int,int>>q;
-        int px=image[sr][sc];
         q.push({sr,sc});
         vis[sr][sc]=1;
         ans[sr][sc]=color;
+        int orignal=image[sr][sc];
         while(!q.empty())
         {
             int row=q.front().first;
@@ -19,7 +19,7 @@ public:
             {
                 int nrow=row+delRow[i];
                 int ncol=col+delCol[i];
-                if(nrow>=0&&nrow<image.size()&&ncol>=0&&ncol<image[0].size()&&!vis[nrow][ncol]&&image[nrow][ncol]==px)
+                if(nrow>=0&&nrow<n&&ncol>=0&&ncol<m&&!vis[nrow][ncol]&&image[nrow][ncol]==orignal)
                 {
                     vis[nrow][ncol]=1;
                     ans[nrow][ncol]=color;
