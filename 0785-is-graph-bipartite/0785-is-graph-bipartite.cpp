@@ -1,25 +1,19 @@
 class Solution {
 public:
-    bool bfs(int node,vector<int>& col,vector<int> adj[])
+    bool dfs(int node,int color,vector<int>& col,vector<int> adj[])
     {
-        queue<int>q;
-        q.push(node);
-        col[node]=0;
-        while(!q.empty())
+        col[node]=color;
+        for(auto it:adj[node])
         {
-            int node=q.front();
-            q.pop();
-            for(auto it:adj[node])
+            if(col[it]==-1)
             {
-                if(col[it]==-1)
-                {
-                    q.push(it);
-                    col[it]=!col[node];
-                }
-                else{
-                    if(col[it]==col[node])
-                        return false;
-                }
+                col[it]=!color;
+                if(dfs(it,!color,col,adj)==false)
+                    return false;
+            }
+            else{
+                if(col[it]==color)
+                    return false;
             }
         }
         return true;
@@ -38,7 +32,7 @@ public:
         {
             if(col[i]==-1)
             {
-                if(bfs(i,col,adj)==false)
+                if(dfs(i,0,col,adj)==false)
                     return false;
             }
         }
