@@ -14,10 +14,10 @@ public:
         if(root==NULL)
             return NULL;
         int curr=root->val;
-        if(p->val>curr&&q->val>curr)
-            return lowestCommonAncestor(root->right,p,q);
-        if(p->val<curr&&q->val<curr)
+        if(curr>p->val&&curr>q->val)
             return lowestCommonAncestor(root->left,p,q);
+        if(curr<p->val&&curr<q->val)
+            return lowestCommonAncestor(root->right,p,q);
         return root;
     }
 };
