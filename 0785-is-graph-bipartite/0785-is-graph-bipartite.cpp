@@ -31,7 +31,6 @@ public:
             for(auto it:graph[i])
             {
                 adj[i].push_back(it);
-                adj[it].push_back(i);
             }
         }
         for(int i=0;i<n;i++)
