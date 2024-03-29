@@ -1,22 +1,22 @@
 class Solution {
 public:
-    void permute(vector<int>& nums,int l,int r,vector<vector<int>>& ans)
+    void solve(int ind,vector<int>& nums,vector<vector<int>>& ans)
     {
-        if(l==r)
+        if(ind==nums.size())
         {
             ans.push_back(nums);
             return;
         }
-        for(int i=l;i<=r;i++)
+        for(int i=ind;i<nums.size();i++)
         {
-            swap(nums[i],nums[l]);
-            permute(nums,l+1,r,ans);
-            swap(nums[i],nums[l]);
+            swap(nums[ind],nums[i]);
+            solve(ind+1,nums,ans);
+            swap(nums[ind],nums[i]);
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>>ans;
-        permute(nums,0,nums.size()-1,ans);
+        solve(0,nums,ans);
         return ans;
     }
 };
