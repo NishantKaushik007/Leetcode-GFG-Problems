@@ -1,45 +1,70 @@
 class LRUCache {
 public:
-    map<int,int>m;
-    map<int,list<int>::iterator>address;
-    list<int>l;
-    int size,cap;
+    class node{
+        public:
+        int key,value;
+        node* next,*prev;
+        node(int k,int val)
+        {
+            key=k;
+            value=val;
+        }
+    };
+    node* head=new node(-1,-1);
+    node* tail=new node(-1,-1);
+    int cap;
+    unordered_map<int,node*>m;
     LRUCache(int capacity) {
         cap=capacity;
-        size=0;
+        head->next=tail;
+        tail->prev=head;
+    }
+    
+    void addNode(node* newNode)
+    {
+        node* temp=head->next;
+        newNode->next=temp;
+        newNode->prev=head;
+        head->next=newNode;
+        temp->prev=newNode;
+    }
+    
+    void deleteNode(node* delNode)
+    {
+        node* delprev=delNode->prev;
+        node* delnext=delNode->next;
+        delprev->next=delnext;
+        delnext->prev=delprev;
     }
     
     int get(int key) {
-        if(m.find(key)==m.end())
+        if(m.find(key)!=m.end())
+        {
+            node* resNode=m[key];
+            int res=resNode->value;
+            m.erase(key);
+            deleteNode(resNode);
+            addNode(resNode);
+            m[key]=head->next;
+            return res;
+        }
             return -1;
-        list<int>::iterator it=address[key];
-        l.erase(it);
-        address.erase(key);
-        l.push_front(key);
-        address[key]=l.begin();
-        return m[key];
     }
     
     void put(int key, int value) {
-        if(m.find(key)!=m.end())
-        {
-            l.erase(address[key]);
-            address.erase(key);
+        if(m.find(key)!=m.end()){
+            node* existingNode=m[key];
             m.erase(key);
-            size--;
+            deleteNode(existingNode);
+            m.erase(existingNode->key);
         }
-        if(size==cap)
+        if(m.size()==cap)
         {
-            int k=l.back();
-            l.pop_back();
-            address.erase(k);
-            m.erase(k);
-            size--;
+            m.erase(tail->prev->key);
+            deleteNode(tail->prev);
         }
-        size++;
-        l.push_front(key);
-        address[key]=l.begin();
-        m[key]=value;
+        addNode(new node(key,value));
+        m[key]=head->next;
     }
 };
 
