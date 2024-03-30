@@ -1,7 +1,6 @@
 class MyStack {
-private:
-    queue<int>q1,q2;
 public:
+    queue<int>q1,q2;
     MyStack() {
         
     }
@@ -17,17 +16,25 @@ public:
     }
     
     int pop() {
-        int res=top();
-        q1.pop();
-        return res;
+        if(!empty())
+        {
+            int val=q1.front();
+            q1.pop();
+            return val;
+        }
+        return -1;
     }
     
     int top() {
-        return q1.front();
+        if(!empty())
+            return q1.front();
+        return -1;
     }
     
     bool empty() {
-        return q1.empty();
+        if(q1.size()==0)
+            return true;
+        return false;
     }
 };
 
