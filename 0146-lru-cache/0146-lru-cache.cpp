@@ -22,19 +22,16 @@ public:
     
     void addNode(node* newNode)
     {
-        node* temp=head->next;
-        newNode->next=temp;
+        newNode->next=head->next;
         newNode->prev=head;
         head->next=newNode;
-        temp->prev=newNode;
+        newNode->next->prev=newNode;
     }
     
     void deleteNode(node* delNode)
     {
-        node* delprev=delNode->prev;
-        node* delnext=delNode->next;
-        delprev->next=delnext;
-        delnext->prev=delprev;
+        delNode->prev->next=delNode->next;
+        delNode->prev->next->prev=delNode->prev;
     }
     
     int get(int key) {
