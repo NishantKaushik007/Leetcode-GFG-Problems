@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int maxi=INT_MIN,prefix=1,suffix=1;
+        int prefix=1,suffix=1,maxi=INT_MIN;
         for(int i=0;i<nums.size();i++)
         {
             prefix*=nums[i];
