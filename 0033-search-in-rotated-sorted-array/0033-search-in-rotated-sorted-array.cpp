@@ -7,16 +7,15 @@ public:
             int mid=(low+high)/2;
             if(nums[mid]==target)
                 return mid;
-            if(nums[low]<=nums[mid])
+            else if(nums[low]<=nums[mid])
             {
-                if(nums[low]<=target&&target<nums[mid])
+                if(target>=nums[low]&&target<=nums[mid])
                     high=mid-1;
                 else
                     low=mid+1;
             }
-            else
-            {
-                if(nums[high]>=target&&target>=nums[mid])
+            else{
+                if(target>=nums[mid]&&target<=nums[high])
                     low=mid+1;
                 else
                     high=mid-1;
