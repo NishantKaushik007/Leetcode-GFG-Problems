@@ -4,8 +4,8 @@ public:
     {
         if(target==0)
             return true;
-        if(ind<0&&target!=0)
-            return false;
+        if(ind==0)
+            return target==nums[0];
         if(dp[ind][target]!=-1)
             return dp[ind][target];
         int notTake=canPart(ind-1,target,nums,dp);
