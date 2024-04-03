@@ -7,12 +7,9 @@ public:
         for(int i=0;i<s.length();i++)
         {
             if(m[s[i]]>=m[s[i+1]])
-            {
                 ans+=m[s[i]];
-            }
-            else{
+            else
                 ans-=m[s[i]];
-            }     
         }
         return ans;
     }
