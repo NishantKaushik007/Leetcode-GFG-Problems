@@ -3,37 +3,35 @@ public:
     bool dfs(int node,int color,vector<int>& col,vector<int> adj[])
     {
         col[node]=color;
-        for(auto it:adj[node])
+        for(int it:adj[node])
         {
             if(col[it]==-1)
             {
-                col[it]=!color;
                 if(dfs(it,!color,col,adj)==false)
                     return false;
             }
             else{
-                if(col[it]==color)
+                if(col[it]==col[node])
                     return false;
             }
         }
         return true;
     }
     bool isBipartite(vector<vector<int>>& graph) {
-        int n=graph.size();
-        vector<int>col(n,-1),adj[n];
-        for(int i=0;i<n;i++)
+        vector<int>adj[graph.size()],col(graph.size(),-1);
+        for(int i=0;i<graph.size();i++)
         {
-            for(auto it:graph[i])
+            for(int it:graph[i])
             {
                 adj[i].push_back(it);
             }
         }
-        for(int i=0;i<n;i++)
+        for(int i=0;i<graph.size();i++)
         {
             if(col[i]==-1)
             {
                 if(dfs(i,0,col,adj)==false)
-                    return false;
+                return false;
             }
         }
         return true;
