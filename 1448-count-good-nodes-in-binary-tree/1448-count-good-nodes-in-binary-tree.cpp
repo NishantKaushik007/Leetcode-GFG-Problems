@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    int solve(TreeNode* root,int maxValue)
+    int solve(TreeNode* root,int maxi)
     {
         if(root==NULL)
             return 0;
         int res=0;
-        if(root->val>=maxValue)
+        if(root->val>=maxi)
         {
             res++;
-            maxValue=root->val;
+            maxi=root->val;
         }
-        return res+solve(root->left,maxValue)+solve(root->right,maxValue);
+        return res+solve(root->left,maxi)+solve(root->right,maxi);
     }
     int goodNodes(TreeNode* root) {
         return solve(root,INT_MIN);
