@@ -6,9 +6,12 @@ public:
         {
             int mid=(low+high)/2;
             if(nums[mid]==nums[mid^1])
+            {
                 low=mid+1;
-            else
+            }
+            else{
                 high=mid-1;
+            }
         }
         return nums[low];
     }
