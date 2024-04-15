@@ -11,12 +11,12 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode* l1=headA,*l2=headB;
         int len1=1,len2=1;
-        while(l1->next!=NULL)
+        while(l1!=NULL)
         {
             len1++;
             l1=l1->next;
         }
-        while(l2->next!=NULL)
+        while(l2!=NULL)
         {
             len2++;
             l2=l2->next;
@@ -26,13 +26,9 @@ public:
         for(int i=0;i<diff;i++)
         {
             if(len1>len2)
-            {
                 l1=l1->next;
-            }
             if(len2>len1)
-            {
                 l2=l2->next;
-            }
         }
         while(l1!=l2)
         {
