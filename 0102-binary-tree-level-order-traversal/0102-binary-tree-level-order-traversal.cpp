@@ -25,11 +25,11 @@ public:
             {
                 root=q.front();
                 q.pop();
-                lvl.push_back(root->val);
                 if(root->left!=NULL)
                     q.push(root->left);
                 if(root->right!=NULL)
                     q.push(root->right);
+                lvl.push_back(root->val);
             }
             ans.push_back(lvl);
         }
