@@ -1,20 +1,20 @@
 class Solution {
 public:
-    int pathSum(int row,int col,vector<vector<int>>& grid,vector<vector<int>>& dp)
+    int minSum(int i,int j,vector<vector<int>>& grid,vector<vector<int>>& dp)
     {
-        if(row==0&&col==0)
-            return grid[row][col];
-        if(row<0||col<0)
+        if(i==0&&j==0)
+            return grid[0][0];
+        if(i<0||j<0)
             return 1e8;
-        if(dp[row][col]!=-1)
-            return dp[row][col];
-        int up=grid[row][col]+pathSum(row-1,col,grid,dp);
-        int left=grid[row][col]+pathSum(row,col-1,grid,dp);
-        return dp[row][col]=min(up,left);
+        if(dp[i][j]!=-1)
+            return dp[i][j];
+        int up=grid[i][j]+minSum(i-1,j,grid,dp);
+        int left=grid[i][j]+minSum(i,j-1,grid,dp);
+        return dp[i][j]=min(up,left);
     }
     int minPathSum(vector<vector<int>>& grid) {
         int n=grid.size(),m=grid[0].size();
         vector<vector<int>>dp(n,vector<int>(m,-1));
-        return pathSum(n-1,m-1,grid,dp);
+        return minSum(n-1,m-1,grid,dp);
     }
 };
