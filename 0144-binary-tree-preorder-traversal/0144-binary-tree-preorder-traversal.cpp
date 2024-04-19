@@ -21,11 +21,11 @@ public:
         {
             root=s.top();
             s.pop();
-            pre.push_back(root->val);
             if(root->right!=NULL)
                 s.push(root->right);
             if(root->left!=NULL)
                 s.push(root->left);
+            pre.push_back(root->val);
         }
         return pre;
     }
