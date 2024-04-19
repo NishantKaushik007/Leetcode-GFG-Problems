@@ -18,7 +18,7 @@ class Solution {
 public:
     Node* copyRandomList(Node* head) {
         if(head==NULL)
-            return head;
+            return NULL;
         Node* curr;
         for(curr=head;curr!=NULL;)
         {
@@ -29,14 +29,14 @@ public:
         }
         for(curr=head;curr!=NULL;curr=curr->next->next)
             curr->next->random=(curr->random)?curr->random->next:NULL;
-        Node* orignal=head,*copy=head->next,*ans=copy;
+        Node* orignal=head,*copy=head->next,*temp=copy;
         while(orignal&&copy)
         {
             orignal->next=orignal->next->next;
             orignal=orignal->next;
-            copy->next=(copy->next)?copy->next->next:copy->next;
+            copy->next=(copy->next)?copy->next->next:NULL;
             copy=copy->next;
         }
-        return ans;
+        return temp;
     }
 };
