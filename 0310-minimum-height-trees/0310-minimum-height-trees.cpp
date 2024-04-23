@@ -2,12 +2,16 @@ class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
         vector<int>indegree(n,0),adj[n],ans;
+        if(n==1)
+        ans.push_back(0);
         for(auto it:edges)
         {
-            indegree[it[0]]++;
-            indegree[it[1]]++;
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+            int u=it[0];
+            int v=it[1];
+            indegree[u]++;
+            indegree[v]++;
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
         queue<int>q;
         for(int i=0;i<n;i++)
@@ -31,12 +35,12 @@ public:
                 {
                     indegree[it]--;
                     if(indegree[it]==1)
+                    {
                         q.push(it);
+                    }
                 }
             }
         }
-        if(n==1)
-            ans.push_back(0);
         return ans;
     }
 };
