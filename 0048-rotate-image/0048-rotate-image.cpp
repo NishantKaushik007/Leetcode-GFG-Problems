@@ -8,7 +8,11 @@ public:
         }
         for(int i=0;i<matrix.size();i++)
         {
-            reverse(matrix[i].begin(),matrix[i].end());
+            int low=0,high=matrix[i].size()-1;
+            while(low<high)
+            {
+                swap(matrix[i][low++],matrix[i][high--]);
+            }
         }
     }
 };
