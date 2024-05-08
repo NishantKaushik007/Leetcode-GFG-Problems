@@ -9,16 +9,15 @@ public:
         }
         if(i<0)
             reverse(nums.begin(),nums.end());
-        else
-        {
+        else{
             for(j=nums.size()-1;j>i;j--)
             {
                 if(nums[j]>nums[i])
                 {
+                    swap(nums[i],nums[j]);
                     break;
                 }
             }
-            swap(nums[j],nums[i]);
             reverse(nums.begin()+i+1,nums.end());
         }
     }
