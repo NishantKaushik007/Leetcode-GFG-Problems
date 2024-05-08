@@ -10,8 +10,8 @@ public:
             {
                 if(matrix[i][j]==0)
                 {
-                    matrix[0][j]=0;
                     matrix[i][0]=0;
+                    matrix[0][j]=0;
                 }
             }
         }
@@ -19,7 +19,7 @@ public:
         {
             for(int j=matrix[0].size()-1;j>0;j--)
             {
-                if(matrix[0][j]==0||matrix[i][0]==0)
+                if(matrix[i][0]==0||matrix[0][j]==0)
                     matrix[i][j]=0;
             }
             if(col0==0)
