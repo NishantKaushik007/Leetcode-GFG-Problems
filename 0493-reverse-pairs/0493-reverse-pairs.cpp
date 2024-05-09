@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int merge(int low,int mid,int high,vector<int>& arr)
+    void merge(int low,int mid,int high,vector<int>& nums,int& count)
     {
-        int count=0;
+        vector<int>v;
         int left=low,right=mid+1;
         while(left<=mid&&right<=high)
         {
-            if(arr[left]>2LL*arr[right])
+            if(nums[left]>2LL*nums[right])
             {
                 count+=mid-left+1;
                 right++;
@@ -16,41 +16,35 @@ public:
             }
         }
         left=low,right=mid+1;
-        vector<int>v;
         while(left<=mid&&right<=high)
         {
-            if(arr[left]>arr[right])
+            if(nums[left]<=nums[right])
             {
-                v.push_back(arr[right++]);
+                v.push_back(nums[left++]);
             }
             else{
-                v.push_back(arr[left++]);
+                v.push_back(nums[right++]);
             }
         }
         while(left<=mid)
-        {
-            v.push_back(arr[left++]);
-        }
+            v.push_back(nums[left++]);
         while(right<=high)
-        {
-            v.push_back(arr[right++]);
-        }
+            v.push_back(nums[right++]);
         for(int i=low;i<=high;i++)
-        arr[i]=v[i-low];
-        return count;
+            nums[i]=v[i-low];
     }
-    int mergeSort(int low,int high,vector<int>& arr)
+    void mergeSort(int low,int high,vector<int>& nums,int& count)
     {
         if(low>=high)
-        return 0;
+            return;
         int mid=(low+high)/2;
-        int inv=mergeSort(low,mid,arr);
-        inv+=mergeSort(mid+1,high,arr);
-        inv+=merge(low,mid,high,arr);
-        return inv;
+        mergeSort(low,mid,nums,count);
+        mergeSort(mid+1,high,nums,count);
+        merge(low,mid,high,nums,count);
     }
     int reversePairs(vector<int>& nums) {
-        int count=0,low=0,high=nums.size()-1;
-        return mergeSort(low,high,nums);
+        int low=0,high=nums.size()-1,count=0;
+        mergeSort(low,high,nums,count);
+        return count;
     }
 };
