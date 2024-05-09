@@ -1,15 +1,15 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int rs=0,re=matrix.size()-1,cs=0,ce=matrix[0].size()-1;
-        while(rs<=re&&cs<=ce)
+        int rt=0,rb=matrix.size()-1,cl=0,cr=matrix[0].size()-1;
+        while(rt<=rb&&cl<=cr)
         {
-            if(matrix[rs][ce]==target)
+            if(matrix[rt][cr]==target)
                 return true;
-            if(matrix[rs][ce]>target)
-                ce--;
+            else if(matrix[rt][cr]>target)
+                cr--;
             else
-                rs++;
+                rt++;
         }
         return false;
     }
