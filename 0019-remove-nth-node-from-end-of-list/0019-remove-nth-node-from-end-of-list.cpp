@@ -14,13 +14,11 @@ public:
         ListNode* dummy=new ListNode(),*curr=dummy,*prev=dummy;
         dummy->next=head;
         while(n--)
-        {
             curr=curr->next;
-        }
         while(curr->next!=NULL)
         {
-            prev=prev->next;
             curr=curr->next;
+            prev=prev->next;
         }
         prev->next=prev->next->next;
         return dummy->next;
