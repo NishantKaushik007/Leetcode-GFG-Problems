@@ -10,9 +10,9 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head)
+    ListNode* reverse(ListNode* head)
     {
-        ListNode* prev=NULL,*curr=head;
+        ListNode* curr=head,*prev=NULL;
         while(curr!=NULL)
         {
             ListNode* nex=curr->next;
@@ -29,17 +29,13 @@ public:
             slow=slow->next;
             fast=fast->next->next;
         }
-        ListNode* rev=reverseList(slow->next);
-        while(rev!=NULL)
+        ListNode* rev=reverse(slow->next);
+        while(rev!=NULL&&head!=NULL)
         {
-            if(head->val==rev->val)
-            {
-                head=head->next;
-                rev=rev->next;
-            }
-            else{
+            if(rev->val!=head->val)
                 return false;
-            }
+            rev=rev->next;
+            head=head->next;
         }
         return true;
     }
