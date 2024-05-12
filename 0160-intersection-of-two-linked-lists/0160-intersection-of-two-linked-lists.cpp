@@ -10,24 +10,24 @@ class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode* l1=headA,*l2=headB;
-        int len1=1,len2=1;
+        int c1=1,c2=1;
         while(l1!=NULL)
         {
-            len1++;
+            c1++;
             l1=l1->next;
         }
         while(l2!=NULL)
         {
-            len2++;
+            c2++;
             l2=l2->next;
         }
-        int diff=abs(len1-len2);
+        int diff=abs(c1-c2);
         l1=headA,l2=headB;
         for(int i=0;i<diff;i++)
         {
-            if(len1>len2)
+            if(c1>c2)
                 l1=l1->next;
-            if(len2>len1)
+            else
                 l2=l2->next;
         }
         while(l1!=l2)
