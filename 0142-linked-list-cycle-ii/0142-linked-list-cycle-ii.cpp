@@ -19,7 +19,7 @@ public:
             if(slow==fast)
                 break;
         }
-        if(fast!=slow)
+        if(slow!=fast)
             return NULL;
         fast=head;
         while(slow!=fast)
