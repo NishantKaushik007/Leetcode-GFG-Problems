@@ -8,17 +8,15 @@ public:
             m[x]++;
         while(!m.empty())
         {
-            int num=m.begin()->first,n=groupSize;
-            while(n!=0&&m.find(num)!=m.end())
+            int num=m.begin()->first;
+            for(int i=0;i<groupSize;i++)
             {
-                m[num]--;
-                if(m[num]<1)
-                    m.erase(num);
-                num++;
-                n--;
+                if(m[num+i]==0)
+                    return false;
+                m[num+i]--;
+                if(m[num+i]<1)
+                    m.erase(num+i);
             }
-            if(n!=0)
-                return false;
         }
         return true;
     }
