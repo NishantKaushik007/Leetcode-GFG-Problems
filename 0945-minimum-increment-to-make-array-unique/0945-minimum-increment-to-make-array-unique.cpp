@@ -6,10 +6,10 @@ public:
         int i=0,j=1;
         while(j<nums.size())
         {
-            while(nums[j]<=nums[i])
+            if(nums[j]<=nums[i])
             {
-                nums[j]+=1;
-                count++;
+                count+=(nums[i]-nums[j]+1);
+                nums[j]=nums[i]+1;
             }
             i++;
             j++;
