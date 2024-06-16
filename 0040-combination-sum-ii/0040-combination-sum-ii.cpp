@@ -1,10 +1,10 @@
 class Solution {
 public:
-    void solve(int ind,int target,vector<int>& candidates,vector<int>& sum,vector<vector<int>>& ans)
+    void solve(int ind,vector<int>& candidates, int target,vector<vector<int>>& ans,vector<int>& ds)
     {
         if(target==0)
         {
-            ans.push_back(sum);
+            ans.push_back(ds);
             return;
         }
         for(int i=ind;i<candidates.size();i++)
@@ -13,16 +13,16 @@ public:
                 continue;
             if(candidates[i]>target)
                 break;
-            sum.push_back(candidates[i]);
-            solve(i+1,target-candidates[i],candidates,sum,ans);
-            sum.pop_back();
+            ds.push_back(candidates[i]);
+            solve(i+1,candidates,target-candidates[i],ans,ds);
+            ds.pop_back();
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>>ans;
-        vector<int>sum;
         sort(candidates.begin(),candidates.end());
-        solve(0,target,candidates,sum,ans);
+        vector<vector<int>>ans;
+        vector<int>ds;
+        solve(0,candidates,target,ans,ds);
         return ans;
     }
 };
