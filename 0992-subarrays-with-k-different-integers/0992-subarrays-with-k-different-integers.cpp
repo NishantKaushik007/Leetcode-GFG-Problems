@@ -1,32 +1,25 @@
 class Solution {
 public:
-    int subarraysWithKDistinct(vector<int>& nums, int k) {
-        return slidingWindowAtMost(nums, k) - slidingWindowAtMost(nums, k - 1);
-    }
-
-private:
-    // Helper function to count the number of subarrays with at most k distinct elements.
-    int slidingWindowAtMost(vector<int>& nums, int distinctK) {
-        // To store the occurrences of each element.
-        map<int, int> freqMap;
-        int left = 0, totalCount = 0;
-
-        // Right pointer of the sliding window iterates through the array.
-        for (int right = 0; right < nums.size(); right++) {
-            freqMap[nums[right]]++;
-
-            // If the number of distinct elements in the window exceeds k,
-            // we shrink the window from the left until we have at most k distinct elements.
-            while (freqMap.size() > distinctK) {
-                freqMap[nums[left]]--;
-                if (freqMap[nums[left]] == 0) 
-                    freqMap.erase(nums[left]);
-                left++;
+    int solve(vector<int>& nums, int k)
+    {
+        unordered_map<int,int>mp;
+        int l=0,r=0,count=0;
+        while(r<nums.size())
+        {
+            mp[nums[r]]++;
+            while(mp.size()>k)
+            {
+                mp[nums[l]]--;
+                if(mp[nums[l]]==0)
+                    mp.erase(nums[l]);
+                l++;
             }
-
-            // Update the total count by adding the length of the current subarray.
-            totalCount += (right - left + 1);
+            count+=(r-l+1);
+            r++;
         }
-        return totalCount;
+        return count;
+    }
+    int subarraysWithKDistinct(vector<int>& nums, int k) {
+        return solve(nums,k)-solve(nums,k-1);
     }
 };
