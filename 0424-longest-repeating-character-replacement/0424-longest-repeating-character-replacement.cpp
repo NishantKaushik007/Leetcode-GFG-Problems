@@ -6,7 +6,7 @@ public:
         {
             freq[s[r]-'A']++;
             maxFreq=max(maxFreq,freq[s[r]-'A']);
-            while((r-l+1)-maxFreq>k)
+            if((r-l+1)-maxFreq>k)
             {
                 freq[s[l]-'A']--;
                 maxFreq=0;
