@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
-        int unsatisfied=0,maxUnsatisfied=0,l=0,r=0,start=0;
+        int unsatisfied=0,maxUnsatisfied=0,l=0,r=0;
         while(r<customers.size())
         {
             if(r-minutes>=0)
@@ -16,7 +16,6 @@ public:
                 if(unsatisfied>maxUnsatisfied)
                 {
                     maxUnsatisfied=unsatisfied;
-                    start=l;
                 }
             }
             r++;
