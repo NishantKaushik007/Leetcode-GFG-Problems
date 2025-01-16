@@ -8,8 +8,6 @@ public:
             else
             nums1[size--]=nums1[size1--];
         }
-        while(size1>=0)
-        nums1[size--]=nums1[size1--];
         while(size2>=0)
         nums1[size--]=nums2[size2--];
     }
