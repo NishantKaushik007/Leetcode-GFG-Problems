@@ -14,17 +14,16 @@ public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int>pre;
         if(root==NULL)
-            return pre;
-        stack<TreeNode*>s;
-        s.push(root);
-        while(!s.empty())
-        {
-            root=s.top();
-            s.pop();
+        return pre;
+        stack<TreeNode*>st;
+        st.push(root);
+        while(!st.empty()){
+            root=st.top();
+            st.pop();
             if(root->right!=NULL)
-                s.push(root->right);
+            st.push(root->right);
             if(root->left!=NULL)
-                s.push(root->left);
+            st.push(root->left);
             pre.push_back(root->val);
         }
         return pre;
