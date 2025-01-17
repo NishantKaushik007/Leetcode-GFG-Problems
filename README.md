@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0206-reverse-linked-list) |
 ## Hash Table
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0206-reverse-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0908-middle-of-the-linked-list) |
