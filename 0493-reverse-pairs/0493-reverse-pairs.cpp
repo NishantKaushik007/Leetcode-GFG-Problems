@@ -1,50 +1,43 @@
 class Solution {
 public:
-    void merge(int low,int mid,int high,vector<int>& nums,int& count)
-    {
+    int merge(vector<int>& nums,int low,int mid,int high){
         vector<int>v;
-        int left=low,right=mid+1;
-        while(left<=mid&&right<=high)
-        {
-            if(nums[left]>2LL*nums[right])
-            {
-                count+=mid-left+1;
+        int left=low,right=mid+1,count=0;
+        while(left<=mid&&right<=high){
+            if(nums[left]>2LL*nums[right]){
+                count+=(mid-left+1);
                 right++;
             }
-            else{
-                left++;
-            }
+            else
+            left++;
         }
         left=low,right=mid+1;
-        while(left<=mid&&right<=high)
-        {
-            if(nums[left]<=nums[right])
-            {
-                v.push_back(nums[left++]);
-            }
-            else{
-                v.push_back(nums[right++]);
-            }
+        while(left<=mid&&right<=high){
+            if(nums[left]>nums[right])
+            v.push_back(nums[right++]);
+            else
+            v.push_back(nums[left++]);
         }
         while(left<=mid)
-            v.push_back(nums[left++]);
+        v.push_back(nums[left++]);
         while(right<=high)
-            v.push_back(nums[right++]);
-        for(int i=low;i<=high;i++)
+        v.push_back(nums[right++]);
+        for(int i=low;i<=high;i++){
             nums[i]=v[i-low];
+        }
+        return count;
     }
-    void mergeSort(int low,int high,vector<int>& nums,int& count)
-    {
+    int mergeSort(vector<int>& nums,int low,int high){
         if(low>=high)
-            return;
+        return 0;
         int mid=(low+high)/2;
-        mergeSort(low,mid,nums,count);
-        mergeSort(mid+1,high,nums,count);
-        merge(low,mid,high,nums,count);
+        int count=mergeSort(nums,low,mid);
+        count+=mergeSort(nums,mid+1,high);
+        count+=merge(nums,low,mid,high);
+        return count;
     }
     int reversePairs(vector<int>& nums) {
-        int low=0,high=nums.size()-1,count=0;
-        mergeSort(low,high,nums,count);
-        return count;
+        int low=0,high=nums.size()-1;
+        return mergeSort(nums,low,high);
     }
 };
