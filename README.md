@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
 |  |
@@ -179,4 +180,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0040-combination-sum-ii) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
