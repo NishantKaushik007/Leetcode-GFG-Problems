@@ -10,7 +10,7 @@ class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode* l1=headA,*l2=headB;
-        int c1=1,c2=1;
+        int c1=0,c2=0;
         while(l1!=NULL)
         {
             c1++;
@@ -25,13 +25,13 @@ public:
         l1=headA,l2=headB;
         for(int i=0;i<diff;i++)
         {
-            if(c1>c2)
+            if(c1>c2){
                 l1=l1->next;
+            }
             else
-                l2=l2->next;
+            l2=l2->next;
         }
-        while(l1!=l2)
-        {
+        while(l1!=l2){
             l1=l1->next;
             l2=l2->next;
         }
