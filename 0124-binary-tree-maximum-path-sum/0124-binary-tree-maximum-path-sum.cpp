@@ -21,7 +21,7 @@ public:
         return root->val+max(left,right);
     }
     int maxPathSum(TreeNode* root) {
-        int sum=0;
+        int sum=INT_MIN;
         solve(root,sum);
         return sum;
     }
