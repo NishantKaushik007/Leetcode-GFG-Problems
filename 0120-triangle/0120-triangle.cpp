@@ -12,6 +12,21 @@ public:
     }
     int minimumTotal(vector<vector<int>>& triangle) {
         vector<vector<int>>dp(triangle.size(),vector<int>(triangle.size(),-1));
-        return minSum(0,0,triangle,dp);
+        for(int i=0;i<triangle.size();i++)
+        dp[triangle.size()-1][i]=triangle[triangle.size()-1][i];
+        for(int i=triangle.size()-2;i>=0;i--)
+        {
+            for(int j=triangle.size()-2;j>=0;j--)
+            {
+                int down=1e8;
+                if(j<=i)
+                down=triangle[i][j]+dp[i+1][j];
+                int dia=1e8;
+                if(j<=i)
+                dia=triangle[i][j]+dp[i+1][j+1];
+                dp[i][j]=min(down,dia);
+            }
+        }
+        return dp[0][0];
     }
 };
