@@ -1,28 +1,26 @@
 class Solution {
 public:
-    bool canPart(int ind,int target,vector<int>& nums,vector<vector<int>>& dp)
+    bool canPart(int ind,int tar,vector<int>& nums,vector<vector<int>>& dp)
     {
-        if(target==0)
-            return true;
+        if(tar==0)
+        return true;
         if(ind==0)
-            return target==nums[0];
-        if(dp[ind][target]!=-1)
-            return dp[ind][target];
-        int notTake=canPart(ind-1,target,nums,dp);
-        int take=false;
-        if(nums[ind]<=target)
-            take=canPart(ind-1,target-nums[ind],nums,dp);
-        return dp[ind][target]=take||notTake;
+        return tar==nums[0];
+        if(dp[ind][tar]!=-1)
+        return dp[ind][tar];
+        bool notTake=canPart(ind-1,tar,nums,dp);
+        bool take=false;
+        if(tar>=nums[ind])
+        take=canPart(ind-1,tar-nums[ind],nums,dp);
+        return dp[ind][tar]=take|notTake;
     }
     bool canPartition(vector<int>& nums) {
-        int sum=0,n=nums.size();
-        for(int i=0;i<n;i++)
-        {
-            sum+=nums[i];
-        }
-        if(sum%2==1)
-            return false;
-        vector<vector<int>>dp(n,vector<int>(sum/2+1,-1));
-        return canPart(n-1,sum/2,nums,dp);
+        int sum=0;
+        for(int num:nums)
+        sum+=num;
+        if(sum%2)
+        return false;
+        vector<vector<int>>dp(nums.size(),vector<int>((sum/2)+1,-1));
+        return canPart(nums.size()-1,sum/2,nums,dp);
     }
 };
