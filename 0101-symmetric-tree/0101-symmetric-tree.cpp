@@ -11,15 +11,13 @@
  */
 class Solution {
 public:
-    bool isSym(TreeNode* root,TreeNode* p,TreeNode* q)
+    bool solve(TreeNode* p,TreeNode* q)
     {
         if(p==NULL||q==NULL)
-            return p==q;
-        return (p->val==q->val)&&isSym(root,p->left,q->right)&&isSym(root,p->right,q->left);
+        return p==q;
+        return p->val==q->val&&solve(p->left,q->right)&&solve(p->right,q->left);
     }
     bool isSymmetric(TreeNode* root) {
-        if(root==NULL)
-            return true;
-        return isSym(root,root->left,root->right);
+        return solve(root->left,root->right);
     }
 };
