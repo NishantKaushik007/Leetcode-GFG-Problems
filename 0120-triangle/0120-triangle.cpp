@@ -16,15 +16,11 @@ public:
         dp[triangle.size()-1][i]=triangle[triangle.size()-1][i];
         for(int i=triangle.size()-2;i>=0;i--)
         {
-            for(int j=triangle.size()-2;j>=0;j--)
+            for(int j=0;j<=i;j++)
             {
-                int down=1e8;
-                if(j<=i)
-                down=triangle[i][j]+dp[i+1][j];
-                int dia=1e8;
-                if(j<=i)
-                dia=triangle[i][j]+dp[i+1][j+1];
-                dp[i][j]=min(down,dia);
+                int up=triangle[i][j]+dp[i+1][j];
+                int right=triangle[i][j]+dp[i+1][j+1];
+                dp[i][j]=min(up,right);
             }
         }
         return dp[0][0];
