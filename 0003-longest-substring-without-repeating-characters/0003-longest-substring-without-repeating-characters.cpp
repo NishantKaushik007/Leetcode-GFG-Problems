@@ -7,9 +7,9 @@ public:
         {
             if(m.find(s[r])!=m.end())
             {
-                l=max(l,m[s[r]]);
+                l=max(l,m[s[r]]+1);
             }
-            maxLen=max(maxLen,r-l);
+            maxLen=max(maxLen,r-l+1);
             m[s[r]]=r;
             r++;
         }
