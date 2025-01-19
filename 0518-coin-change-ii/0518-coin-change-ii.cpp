@@ -1,30 +1,29 @@
 class Solution {
 public:
-    vector<int> coins;
-    vector<vector<int>> memo;
-
-    int numberOfWays(int i, int amount) {
-        if (amount == 0) {
-            return 1;
+    int change(int am, vector<int>& coins) {
+        vector<vector<int>>dp(coins.size(),vector<int>(am+1,0));
+        for(int i=0;i<=am;i++)
+        {
+            if(i%coins[0]==0)
+            {
+                dp[0][i]=1;
+            }
         }
-        if (i == coins.size()) {
-            return 0;
+        for(int i=0;i<coins.size();i++)
+        {
+            dp[i][0]=1;
         }
-        if (memo[i][amount] != -1) {
-            return memo[i][amount];
+        for(int ind=1;ind<coins.size();ind++)
+        {
+            for(int amount=0;amount<=am;amount++)
+            {
+                long notTake=dp[ind-1][amount];
+                long take=0;
+                if(amount>=coins[ind])
+                take=dp[ind][amount-coins[ind]];
+                dp[ind][amount]=take+notTake;
+            }
         }
-
-        if (coins[i] > amount) {
-            return memo[i][amount] = numberOfWays(i + 1, amount);
-        }
-
-        memo[i][amount] = numberOfWays(i, amount - coins[i]) + numberOfWays(i + 1, amount);
-        return memo[i][amount];
-    }
-
-    int change(int amount, vector<int>& coins) {
-        this->coins = coins;
-        memo = vector<vector<int>>(coins.size(), vector<int>(amount + 1, -1));
-        return numberOfWays(0, amount);
+        return dp[coins.size()-1][am];
     }
 };
