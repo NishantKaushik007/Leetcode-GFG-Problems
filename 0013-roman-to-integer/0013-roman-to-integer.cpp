@@ -1,15 +1,21 @@
 class Solution {
 public:
     int romanToInt(string s) {
-        unordered_map<char,int>m;
-        m['I']=1,m['V']=5,m['X']=10,m['L']=50,m['C']=100,m['D']=500,m['M']=1000;
+        unordered_map<char,int>RomToInt;
+        RomToInt['I']=1;
+        RomToInt['V']=5;
+        RomToInt['X']=10;
+        RomToInt['L']=50;
+        RomToInt['C']=100;
+        RomToInt['D']=500;
+        RomToInt['M']=1000;
         int ans=0;
         for(int i=0;i<s.length();i++)
         {
-            if(m[s[i]]>=m[s[i+1]])
-                ans+=m[s[i]];
+            if(RomToInt[s[i]]<RomToInt[s[i+1]])
+            ans-=RomToInt[s[i]];
             else
-                ans-=m[s[i]];
+            ans+=RomToInt[s[i]];
         }
         return ans;
     }
