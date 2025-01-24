@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
+| [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 ## Binary Tree
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
+| [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Heap (Priority Queue)
 |  |
@@ -347,4 +350,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
