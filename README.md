@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Math
 |  |
 | ------- |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## String
 |  |
 | ------- |
