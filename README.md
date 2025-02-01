@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1250-longest-common-subsequence) |
+| [2562-count-ways-to-build-good-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2562-count-ways-to-build-good-strings) |
 ## Two Pointers
 |  |
 | ------- |
