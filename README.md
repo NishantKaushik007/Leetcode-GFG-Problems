@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
+| [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Combinatorics
