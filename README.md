@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
+| [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0070-climbing-stairs) |
+| [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## Matrix
 |  |
 | ------- |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
+| [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 ## Counting
 |  |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## Combinatorics
 |  |
 | ------- |
