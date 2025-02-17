@@ -1,22 +1,25 @@
 class Solution {
 public:
-    void solve(string& tiles,string curr,unordered_set<string>& st,vector<bool>& used)
+    int solve(vector<int>& freq)
     {
-        st.insert(curr);
-        for(int i=0;i<tiles.length();i++)
+        int count=0;
+        for(int i=0;i<26;i++)
         {
-            if(!used[i])
-            {
-                used[i]=true;
-                solve(tiles,curr+tiles[i],st,used);
-                used[i]=false;
-            }
+            if(freq[i]==0)
+            continue;
+            count++;
+            freq[i]--;
+            count+=solve(freq);
+            freq[i]++;
         }
+        return count;
     }
     int numTilePossibilities(string tiles) {
-        unordered_set<string>st;
-        vector<bool>used(tiles.size(),false);
-        solve(tiles,"",st,used);
-        return st.size()-1;
+        vector<int>freq(26,0);
+        for(char x:tiles)
+        {
+            freq[x-'A']++;
+        }
+        return solve(freq);
     }
 };
