@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [2551-apply-operations-to-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2551-apply-operations-to-an-array) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Counting
 |  |
 | ------- |
