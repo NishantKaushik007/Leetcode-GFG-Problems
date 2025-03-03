@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [2792-neighboring-bitwise-xor](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2792-neighboring-bitwise-xor) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0287-find-the-duplicate-number) |
+| [2792-neighboring-bitwise-xor](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2792-neighboring-bitwise-xor) |
 ## Recursion
 |  |
 | ------- |
