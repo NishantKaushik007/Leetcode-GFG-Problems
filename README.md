@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1477-product-of-the-last-k-numbers) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [3643-zero-array-transformation-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3643-zero-array-transformation-ii) |
 ## Bit Manipulation
 |  |
