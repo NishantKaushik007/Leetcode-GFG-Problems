@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0088-merge-sorted-array) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0142-linked-list-cycle-ii) |
