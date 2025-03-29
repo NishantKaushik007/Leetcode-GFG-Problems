@@ -32,9 +32,9 @@ public:
             c2++;
         }
         vector<int>ans;
-        if(c1>=nums.size()/3)
+        if(c1>nums.size()/3)
         ans.push_back(ele1);
-        if(c2>=nums.size()/3)
+        if(c2>nums.size()/3)
         ans.push_back(ele2);
         return ans;
     }
