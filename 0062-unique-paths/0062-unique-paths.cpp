@@ -4,7 +4,9 @@ public:
         int N=m+n-2,r=m-1;
         double ans=1;
         for(int i=1;i<=r;i++)
-        ans=ans*(N-r+i)/i;
+        {
+            ans=ans*(N-r+i)/i;
+        }
         return (int)ans;
     }
 };
