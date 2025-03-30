@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0198-house-robber) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0213-house-robber-ii) |
@@ -390,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
