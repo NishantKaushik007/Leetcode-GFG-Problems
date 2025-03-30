@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0493-reverse-pairs) |
 | [0518-coin-change-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0540-single-element-in-a-sorted-array) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [0854-making-a-large-island](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0854-making-a-large-island) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0518-coin-change-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
