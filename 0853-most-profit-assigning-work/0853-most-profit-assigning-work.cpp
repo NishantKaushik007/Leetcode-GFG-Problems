@@ -9,21 +9,16 @@ public:
         for(int i=1;i<v.size();i++)
         v[i].second=max(v[i-1].second,v[i].second);
         sort(worker.begin(),worker.end());
-        for(int i=0;i<worker.size();i++)
+        int i=0,j=0,mprofit=0;
+        while(i<worker.size())
         {
-            int target=worker[i],low=0,high=v.size()-1,profit=0;
-            while(low<=high)
+            while(worker[i]>=v[j].first&&j<v.size())
             {
-                int mid=(low+high)/2;
-                if(v[mid].first<=target)
-                {
-                    profit=max(profit,v[mid].second);
-                    low=mid+1;
-                }
-                else
-                high=mid-1;
+                mprofit=max(mprofit,v[j].second);
+                j++;
             }
-            maxProfit+=profit;
+            i++;
+            maxProfit+=mprofit;
         }
         return maxProfit;
     }
