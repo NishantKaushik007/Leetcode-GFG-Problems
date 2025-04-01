@@ -14,15 +14,15 @@ public:
         if(head==NULL||head->next==NULL)
         return head;
         ListNode* curr=head;
-        int len=1;
+        int c=1;
         while(curr->next!=NULL)
         {
+            c++;
             curr=curr->next;
-            len++;
         }
         curr->next=head;
-        k=len-(k%len);
-        for(int i=0;i<k;i++)
+        k=c-(k%c);
+        while(k--)
         curr=curr->next;
         head=curr->next;
         curr->next=NULL;
