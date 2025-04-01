@@ -21,17 +21,17 @@ public:
             c2++;
             l2=l2->next;
         }
-        int diff=abs(c1-c2);
+        int d=abs(c1-c2);
         l1=headA,l2=headB;
-        for(int i=0;i<diff;i++)
+        while(d--)
         {
-            if(c1>c2){
-                l1=l1->next;
-            }
-            else
+            if(c1>c2)
+            l1=l1->next;
+            if(c2>c1)
             l2=l2->next;
         }
-        while(l1!=l2){
+        while(l1!=l2)
+        {
             l1=l1->next;
             l2=l2->next;
         }
