@@ -9,9 +9,9 @@ public:
         }
         for(int i=ind;i<nums.size();i++)
         {
-            swap(nums[ind],nums[i]);
+            swap(nums[i],nums[ind]);
             solve(ind+1,nums,ans);
-            swap(nums[ind],nums[i]);
+            swap(nums[i],nums[ind]);
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
