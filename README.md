@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3447-clear-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3447-clear-digits) |
@@ -628,4 +630,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
 <!---LeetCode Topics End-->
