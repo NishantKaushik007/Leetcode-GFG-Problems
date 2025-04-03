@@ -1,20 +1,20 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int prefix=1,suffix=1,maxProd=INT_MIN;
+        int maxProd=INT_MIN,prefix=1,suffix=1;
         for(int i=0;i<nums.size();i++)
         {
             prefix*=nums[i];
             maxProd=max(maxProd,prefix);
             if(prefix==0)
-                prefix=1;
+            prefix=1;
         }
         for(int i=nums.size()-1;i>=0;i--)
         {
             suffix*=nums[i];
             maxProd=max(maxProd,suffix);
             if(suffix==0)
-                suffix=1;
+            suffix=1;
         }
         return maxProd;
     }
