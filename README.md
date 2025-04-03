@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0063-unique-paths-ii) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0051-n-queens) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
