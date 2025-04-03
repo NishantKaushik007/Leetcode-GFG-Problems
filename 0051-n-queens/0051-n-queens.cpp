@@ -1,40 +1,44 @@
 class Solution {
 public:
-    bool isSafe(int row,int col,vector<string>& board)
+    bool isSafe(int row,int col,vector<string>& board,int n)
     {
         for(int i=col;i>=0;i--)
         {
             if(board[row][i]=='Q')
-                return false;
+            return false;
         }
-        int r=row,c=col;
-        while(r>=0&&c>=0)
+        int nrow=row-1,ncol=col-1;
+        while(nrow>=0&&ncol>=0)
         {
-            if(board[r--][c--]=='Q')
-                return false;
+            if(board[nrow][ncol]=='Q')
+            return false;
+            nrow--;
+            ncol--;
         }
-        r=row,c=col;
-        while(r<board.size()&&c>=0)
+        nrow=row+1,ncol=col-1;
+        while(nrow<n&&ncol>=0)
         {
-            if(board[r++][c--]=='Q')
-                return false;
+            if(board[nrow][ncol]=='Q')
+            return false;
+            nrow++;
+            ncol--;
         }
         return true;
     }
-    void placeQueen(int col,int n,vector<string>& board,vector<vector<string>>& ans)
+    void placeQueen(int col,vector<string>& board,vector<vector<string>>& ans,int n)
     {
         if(col==n)
         {
             ans.push_back(board);
             return;
         }
-        for(int row=0;row<n;row++)
+        for(int i=0;i<n;i++)
         {
-            if(isSafe(row,col,board))
+            if(isSafe(i,col,board,n))
             {
-                board[row][col]='Q';
-                placeQueen(col+1,n,board,ans);
-                board[row][col]='.';
+                board[i][col]='Q';
+                placeQueen(col+1,board,ans,n);
+                board[i][col]='.';
             }
         }
     }
@@ -43,8 +47,8 @@ public:
         vector<string>board(n);
         string s(n,'.');
         for(int i=0;i<n;i++)
-            board[i]=s;
-        placeQueen(0,n,board,ans);
+        board[i]=s;
+        placeQueen(0,board,ans,n);
         return ans;
     }
 };
