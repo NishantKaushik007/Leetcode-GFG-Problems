@@ -18,7 +18,7 @@ class Solution {
 public:
     Node* copyRandomList(Node* head) {
         if(head==NULL)
-            return NULL;
+        return NULL;
         Node* curr=NULL;
         for(curr=head;curr!=NULL;curr=curr->next->next)
         {
@@ -27,17 +27,16 @@ public:
             curr->next=temp;
         }
         for(curr=head;curr!=NULL;curr=curr->next->next)
+        curr->next->random=(curr->random)?curr->random->next:NULL;
+        Node* copy=head->next,*original=head;
+        curr=copy;
+        while(copy&&original)
         {
-            curr->next->random=(curr->random)?curr->random->next:NULL;
+            original->next=(original->next->next)?original->next->next:NULL;
+            original=original->next;
+            copy->next=(copy->next)?copy->next->next:NULL;
+            copy=copy->next;
         }
-        Node* orignal=head,*copy=head->next,*temp=copy;
-        while(orignal!=NULL&&temp!=NULL)
-        {
-            orignal->next=orignal->next->next;
-            orignal=orignal->next;
-            temp->next=(temp->next)?temp->next->next:NULL;
-            temp=temp->next;
-        }
-        return copy;
+        return curr;
     }
 };
