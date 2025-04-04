@@ -36,14 +36,22 @@ public:
 
     void deleteNode(Node* temp)
     {
-        Node* delNode=temp;
         temp->prev->next=temp->next;
         temp->next->prev=temp->prev;
     }
 
     int get(int key) {
         if(mp.find(key)!=mp.end())
-        return mp[key]->val;
+        {
+            Node* node=mp[key];
+            int value=node->val;
+            mp.erase(key);
+            deleteNode(node);
+            Node* temp=new Node(key,value);
+            addNode(temp);
+            mp[key]=temp;
+            return value;
+        }
         return -1;
     }
     
