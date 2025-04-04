@@ -11,19 +11,21 @@
  */
 class Solution {
 public:
-    void solve(int preStart,int preEnd,int inStart,int inEnd,vector<int>& preorder,vector<int>& inorder,unordered_map<int,int>& inMap)
+    TreeNode* solve(int preStart,int preEnd,int inStart,int inEnd,vector<int>& preorder,vector<int>& inorder,unordered_map<int,int>& inMap)
     {
+        if(preStart>preEnd||inStart>inEnd)
+        return NULL;
         TreeNode* root=new TreeNode(preorder[preStart]);
-        int inPos=inMap[root->val];
-        int left=inPos-1;
-        int right=inPos+1;
-        root->left=solve(preStart+1,preEnd,inStart,left,preorder,inorder,inMap);
-        root->right=solve(preStart+1,preEnd,right,left,preorder,inorder,inMap);
+        int inRoot=inMap[root->val];
+        int numLeft=inRoot-inStart;
+        root->left=solve(preStart+1,preStart+numLeft,inStart,inRoot-1,preorder,inorder,inMap);
+        root->right=solve(preStart+numLeft+1,preEnd,inRoot+1,inEnd,preorder,inorder,inMap);
+        return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         unordered_map<int,int>inMap;
         for(int i=0;i<inorder.size();i++)
         inMap[inorder[i]]=i;
-        solve(0,preorder.size()-1,0,inorder.size()-1,preorder,inorder);
+        return solve(0,preorder.size()-1,0,inorder.size()-1,preorder,inorder,inMap);
     }
 };
