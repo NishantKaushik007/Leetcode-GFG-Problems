@@ -2,12 +2,11 @@ class Solution {
 public:
     bool isPalindrome(int start,int end,string& s)
     {
-        while(start<=end)
-        {
-            if(s[start++]!=s[end--])
-            return false;
-        }
+        if(start>=end)
         return true;
+        if(s[start]==s[end])
+        return isPalindrome(start+1,end-1,s);
+        return false;
     }
     string longestPalindrome(string s) {
         int start=-1,maxLen=0;
