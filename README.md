@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0146-lru-cache) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
@@ -641,4 +644,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
