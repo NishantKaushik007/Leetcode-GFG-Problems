@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0072-edit-distance](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0151-reverse-words-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
