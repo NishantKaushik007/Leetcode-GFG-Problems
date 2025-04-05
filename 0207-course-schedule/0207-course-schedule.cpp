@@ -1,11 +1,12 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>vis(numCourses,0),adj[numCourses],indegree(numCourses,0);
-        for(int i=0;i<prerequisites.size();i++)
+        vector<int>adj[numCourses];
+        vector<int>vis(numCourses,0),indegree(numCourses,0);
+        for(auto it:prerequisites)
         {
-            int u=prerequisites[i][0];
-            int v=prerequisites[i][1];
+            int u=it[0];
+            int v=it[1];
             adj[u].push_back(v);
             indegree[v]++;
         }
@@ -22,7 +23,7 @@ public:
         {
             int node=q.front();
             q.pop();
-            for(int it:adj[node])
+            for(auto it:adj[node])
             {
                 if(!vis[it])
                 {
@@ -36,8 +37,10 @@ public:
             }
         }
         for(int i=0;i<numCourses;i++)
-            if(!vis[i])
-                return false;
+        {
+            if(indegree[i]>0)
+            return false;
+        }
         return true;
     }
 };
