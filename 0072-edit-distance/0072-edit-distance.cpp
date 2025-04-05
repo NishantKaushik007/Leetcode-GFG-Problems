@@ -17,6 +17,6 @@ public:
                 dp[i][j]=min(1+dp[i-1][j],min(1+dp[i][j-1],1+dp[i-1][j-1]));
             }
         }
-        return dp[n][m-1];
+        return dp[n][m];
     }
 };
