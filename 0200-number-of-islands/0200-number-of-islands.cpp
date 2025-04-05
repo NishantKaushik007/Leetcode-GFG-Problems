@@ -1,17 +1,26 @@
 class Solution {
 public:
-    void dfs(int r,int c,vector<vector<char>>& grid,vector<vector<int>>& vis)
+    void bfs(int r,int c,vector<vector<char>>& grid,vector<vector<int>>& vis)
     {
+        queue<pair<int,int>>q;
+        q.push({r,c});
         vis[r][c]=1;
         int delrow[4]={-1,0,1,0};
         int delcol[4]={0,1,0,-1};
-        for(int i=0;i<4;i++)
+        while(!q.empty())
         {
-            int nrow=delrow[i]+r;
-            int ncol=delcol[i]+c;
-            if(nrow>=0&&nrow<grid.size()&&ncol>=0&&ncol<grid[0].size()&&!vis[nrow][ncol]&&grid[nrow][ncol]=='1')
+            int row=q.front().first;
+            int col=q.front().second;
+            q.pop();
+            for(int i=0;i<4;i++)
             {
-                dfs(nrow,ncol,grid,vis);
+                int nrow=delrow[i]+row;
+                int ncol=delcol[i]+col;
+                if(nrow>=0&&nrow<grid.size()&&ncol>=0&&ncol<grid[0].size()&&!vis[nrow][ncol]&&grid[nrow][ncol]=='1')
+                {
+                    q.push({nrow,ncol});
+                    vis[nrow][ncol]=1;
+                }
             }
         }
     }
@@ -25,7 +34,7 @@ public:
                 if(!vis[i][j]&&grid[i][j]=='1')
                 {
                     count++;
-                    dfs(i,j,grid,vis);
+                    bfs(i,j,grid,vis);
                 }
             }
         }
