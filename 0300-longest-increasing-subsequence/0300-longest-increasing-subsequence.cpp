@@ -3,7 +3,7 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         vector<int>ahead(nums.size()+1,0);
         vector<int>curr(nums.size()+1,0);
-        for(int ind=nums.size()-1;ind>=-1;ind--)
+        for(int ind=nums.size()-1;ind>=0;ind--)
         {
             for(int prev=ind-1;prev>=-1;prev--)
             {
@@ -15,6 +15,6 @@ public:
             }
             ahead=curr;
         }
-        return curr[0];
+        return ahead[0];
     }
 };
