@@ -2,10 +2,12 @@ class Solution {
 public:
     bool subSum(int ind,int target,vector<int>& nums,vector<vector<int>>& dp)
     {
-        if(ind<0)
-        return false;
-        if(target==0)
-        return true;
+        if(ind==0)
+        {
+            if(nums[ind]==target)
+            return true;
+            return false;
+        }
         if(dp[ind][target]!=-1)
         return dp[ind][target];
         bool take=false;
