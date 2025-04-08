@@ -15,7 +15,7 @@ public:
         vector<vector<int>>ans;
         if(root==NULL)
         return ans;
-        map<int,pair<int,multiset<int>>>mp;
+        map<int,map<int,multiset<int>>>mp;
         queue<pair<int,pair<int,TreeNode*>>>q;
         q.push({0,{0,root}});
         while(!q.empty())
@@ -33,9 +33,9 @@ public:
         for(auto p:mp)
         {
             vector<int>v;
-            for(auto q:p)
+            for(auto q:p.second)
             {
-                v.insert(q.second.begin(),q.second.end(),v.end());
+                v.insert(v.end(),q.second.begin(),q.second.end());
             }
             ans.push_back(v);
         }
