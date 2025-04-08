@@ -17,7 +17,8 @@ public:
         return post;
         stack<TreeNode*>s1,s2;
         s1.push(root);
-        while(!s1.empty()){
+        while(!s1.empty())
+        {
             root=s1.top();
             s1.pop();
             if(root->left!=NULL)
@@ -26,7 +27,8 @@ public:
             s1.push(root->right);
             s2.push(root);
         }
-        while(!s2.empty()){
+        while(!s2.empty())
+        {
             post.push_back(s2.top()->val);
             s2.pop();
         }
