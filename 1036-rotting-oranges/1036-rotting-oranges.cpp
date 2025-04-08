@@ -1,20 +1,22 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int maxTime=0,fresh=0;
         queue<pair<int,pair<int,int>>>q;
+        int count=0,maxTime=0;
         for(int i=0;i<grid.size();i++)
         {
             for(int j=0;j<grid[0].size();j++)
             {
                 if(grid[i][j]==2)
-                q.push({0,{i,j}});
+                {
+                    q.push({0,{i,j}});
+                }
                 if(grid[i][j]==1)
-                fresh++;
+                count++;
             }
         }
-        int delrow[4]={-1,0,1,0};
-        int delcol[4]={0,1,0,-1};
+        int delrow[]={-1,0,1,0};
+        int delcol[]={0,1,0,-1};
         while(!q.empty())
         {
             int time=q.front().first;
@@ -29,11 +31,13 @@ public:
                 {
                     q.push({time+1,{nrow,ncol}});
                     grid[nrow][ncol]=2;
-                    fresh--;
+                    count--;
                 }
             }
             maxTime=max(maxTime,time);
         }
-        return fresh!=0?-1:maxTime;
+        if(count==0)
+        return maxTime;
+        return -1;
     }
 };
