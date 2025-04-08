@@ -15,30 +15,27 @@ public:
         vector<vector<int>>ans;
         if(root==NULL)
         return ans;
-        map<int,map<int,multiset<int>>>m;
+        map<int,pair<int,multiset<int>>>mp;
         queue<pair<int,pair<int,TreeNode*>>>q;
         q.push({0,{0,root}});
-        while(!q.empty()){
-            int n=q.size();
-            for(int i=0;i<n;i++)
-            {
-                root=q.front().second.second;
-                int vlvl=q.front().first;
-                int hlvl=q.front().second.first;
-                q.pop();
-                if(root->left!=NULL)
-                q.push({vlvl-1,{hlvl+1,root->left}});
-                if(root->right!=NULL)
-                q.push({vlvl+1,{hlvl+1,root->right}});
-                m[vlvl][hlvl].insert(root->val);
-            }
+        while(!q.empty())
+        {
+            root=q.front().second.second;
+            int vlvl=q.front().first;
+            int lvl=q.front().second.first;
+            q.pop();
+            if(root->left!=NULL)
+            q.push({vlvl-1,{lvl+1,root->left}});
+            if(root->right!=NULL)
+            q.push({vlvl+1,{lvl+1,root->right}});
+            mp[vlvl][lvl].insert(root->val);
         }
-        for(auto it:m)
+        for(auto p:mp)
         {
             vector<int>v;
-            for(auto p:it.second)
+            for(auto q:p)
             {
-                v.insert(v.end(),p.second.begin(),p.second.end());
+                v.insert(q.second.begin(),q.second.end(),v.end());
             }
             ans.push_back(v);
         }
