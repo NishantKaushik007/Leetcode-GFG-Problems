@@ -1,31 +1,21 @@
 class Solution {
 public:
-    int change(int am, vector<int>& coins) {
-        vector<int>prev(am+1,0);
-        for(int i=0;i<=am;i++)
-        {
-            if(i%coins[0]==0)
-            {
-                prev[i]=1;
-            }
-        }
-        for(int i=0;i<coins.size();i++)
-        {
-            prev[0]=1;
-        }
-        for(int ind=1;ind<coins.size();ind++)
-        {
-            vector<int>curr(am+1,0);
-            for(int amount=0;amount<=am;amount++)
-            {
-                long notTake=prev[amount];
-                long take=0;
-                if(amount>=coins[ind])
-                take=curr[amount-coins[ind]];
-                curr[amount]=take+notTake;
-            }
-            prev=curr;
-        }
-        return prev[am];
+    int count(int ind,int amt,vector<int>& coins,vector<vector<int>>& dp)
+    {
+        if(amt==0)
+        return 1;
+        if(ind==0)
+        return amt%coins[0]==0;
+        if(dp[ind][amt]!=-1)
+        return dp[ind][amt];
+        int take=0;
+        if(amt>=coins[ind])
+        take=count(ind,amt-coins[ind],coins,dp);
+        int notTake=count(ind-1,amt,coins,dp);
+        return dp[ind][amt]=take+notTake;
+    }
+    int change(int amount, vector<int>& coins) {
+        vector<vector<int>>dp(coins.size(),vector<int>(amount+1,-1));
+        return count(coins.size()-1,amount,coins,dp);
     }
 };
