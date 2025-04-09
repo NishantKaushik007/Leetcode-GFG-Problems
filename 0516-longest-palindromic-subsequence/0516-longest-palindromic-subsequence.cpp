@@ -1,20 +1,26 @@
 class Solution {
 public:
-    int lcs(int i,int j,string& a,string& b,vector<vector<int>>& dp)
-    {
-        if(i<0||j<0)
-            return 0;
-        if(dp[i][j]!=-1)
-            return dp[i][j];
-        if(a[i]==b[j])
-            return dp[i][j]=1+lcs(i-1,j-1,a,b,dp);
-        return dp[i][j]=max(lcs(i-1,j,a,b,dp),lcs(i,j-1,a,b,dp));
+    int longestCommonSubsequence(string& text1,string& text2) {
+        int n=text1.length(),m=text2.length();
+        vector<int>prev(m+1,0);
+        for(int i=1;i<=n;i++)
+        {
+            vector<int>curr(m+1,0);
+            for(int j=1;j<=m;j++)
+            {
+                int match=0;
+                if(text1[i-1]==text2[j-1])
+                match=1+prev[j-1];
+                int notMatch=max(prev[j],curr[j-1]);
+                curr[j]=max(match,notMatch);
+            }
+            prev=curr;
+        }
+        return prev[m];
     }
     int longestPalindromeSubseq(string s) {
         string t=s;
         reverse(t.begin(),t.end());
-        int n=s.length();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        return lcs(n-1,n-1,s,t,dp);
+        return longestCommonSubsequence(s,t);
     }
 };
