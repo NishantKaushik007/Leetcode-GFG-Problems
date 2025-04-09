@@ -6,10 +6,6 @@ public:
         {
             if(s[start++]!=s[end--])
             return false;
-            else{
-                start++;
-                end--;
-            }
         }
         return true;
     }
