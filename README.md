@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0063-unique-paths-ii) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0206-reverse-linked-list) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0044-wildcard-matching](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0072-edit-distance) |
 | [0131-palindrome-partitioning](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0151-reverse-words-in-a-string) |
@@ -470,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
