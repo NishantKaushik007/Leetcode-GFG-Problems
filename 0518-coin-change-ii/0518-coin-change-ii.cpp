@@ -1,21 +1,25 @@
 class Solution {
 public:
-    int count(int ind,int amt,vector<int>& coins,vector<vector<int>>& dp)
-    {
-        if(amt==0)
-        return 1;
-        if(ind==0)
-        return amt%coins[0]==0;
-        if(dp[ind][amt]!=-1)
-        return dp[ind][amt];
-        int take=0;
-        if(amt>=coins[ind])
-        take=count(ind,amt-coins[ind],coins,dp);
-        int notTake=count(ind-1,amt,coins,dp);
-        return dp[ind][amt]=take+notTake;
-    }
     int change(int amount, vector<int>& coins) {
-        vector<vector<int>>dp(coins.size(),vector<int>(amount+1,-1));
-        return count(coins.size()-1,amount,coins,dp);
+        vector<vector<int>>dp(coins.size(),vector<int>(amount+1,0));
+        for(int i=0;i<coins.size();i++)
+        dp[i][0]=1;
+        for(int i=0;i<=amount;i++)
+        {
+            if(i%coins[0]==0)
+            dp[0][i]=1;
+        }
+        for(int ind=1;ind<coins.size();ind++)
+        {
+            for(int amt=0;amt<=amount;amt++)
+            {
+                int take=0;
+                if(amt>=coins[ind])
+                take=dp[ind][amt-coins[ind]];
+                int notTake=dp[ind-1][amt];
+                dp[ind][amt]=take+notTake;
+            }
+        }
+        return dp[coins.size()-1][amount];
     }
 };
