@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool dfs(int node,vector<int>& vis,vector<int>& pathVis,vector<int> adj[],stack<int>& s)
+    bool haveCycle(int node,vector<int> adj[],vector<int>& vis,vector<int>& pathVis,stack<int>& st)
     {
         vis[node]=1;
         pathVis[node]=1;
@@ -8,19 +8,19 @@ public:
         {
             if(!vis[it])
             {
-                if(dfs(it,vis,pathVis,adj,s)==true)
-                    return true;
-            }
-            else if(pathVis[it]==1)
+                if(haveCycle(it,adj,vis,pathVis,st)==true)
                 return true;
+            }
+            else if(pathVis[it])
+            return true;
         }
-        s.push(node);
+        st.push(node);
         pathVis[node]=0;
         return false;
     }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>adj[numCourses],vis(numCourses,0),pathVis(numCourses,0),topo;
-        stack<int>s;
+        vector<int>vis(numCourses,0),pathVis(numCourses,0),adj[numCourses],topo;
+        stack<int>st;
         for(auto it:prerequisites)
         {
             int u=it[1];
@@ -31,14 +31,14 @@ public:
         {
             if(!vis[i])
             {
-                if(dfs(i,vis,pathVis,adj,s)==true)
-                    return {};
+                if(haveCycle(i,adj,vis,pathVis,st)==true)
+                return {};
             }
         }
-        while(!s.empty())
+        while(!st.empty())
         {
-            topo.push_back(s.top());
-            s.pop();
+            topo.push_back(st.top());
+            st.pop();
         }
         return topo;
     }
