@@ -1,31 +1,29 @@
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
-        int n=nums.size(),maxi=1,ans=0;
-        vector<int>dp(n,1),count(n,1);
-        for(int ind=0;ind<n;ind++)
+        int maxLen=1,count=0;
+        vector<int>dp(nums.size(),1),cnt(nums.size(),1);
+        for(int i=0;i<nums.size();i++)
         {
-            for(int prev_ind=0;prev_ind<ind;prev_ind++)
+            for(int j=0;j<i;j++)
             {
-                if(nums[ind]>nums[prev_ind]&&1+dp[prev_ind]>dp[ind])
+                if(nums[j]<nums[i]&&dp[j]+1>dp[i])
                 {
-                    dp[ind]=1+dp[prev_ind];
-                    //inherit
-                    count[ind]=count[prev_ind];
+                    dp[i]=dp[j]+1;
+                    cnt[i]=cnt[j];
                 }
-                else if(nums[ind]>nums[prev_ind]&&1+dp[prev_ind]==dp[ind])
+                else if(nums[j]<nums[i]&&1+dp[j]==dp[i])
                 {
-                    //increase the count
-                    count[ind]+=count[prev_ind];
+                    cnt[i]+=cnt[j];
                 }
             }
-            maxi=max(maxi,dp[ind]);
+            maxLen=max(maxLen,dp[i]);
         }
-        for(int i=0;i<n;i++)
+        for(int i=0;i<dp.size();i++)
         {
-            if(dp[i]==maxi)
-            ans+=count[i];
+            if(dp[i]==maxLen)
+            count+=cnt[i];
         }
-        return ans;
+        return count;
     }
 };
