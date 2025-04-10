@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [0908-middle-of-the-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -330,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0952-word-subsets) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
@@ -417,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0952-word-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1250-longest-common-subsequence) |
