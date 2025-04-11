@@ -578,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
@@ -638,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
@@ -664,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0820-find-eventual-safe-states) |
@@ -682,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
+| [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
@@ -692,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
