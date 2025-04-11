@@ -1,18 +1,18 @@
 class Solution {
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        vector<int>revAdj[graph.size()],vis(graph.size(),0),indegree(graph.size(),0),topo;
+        vector<int>vis(graph.size(),0),adjT[graph.size()],indegree(graph.size(),0),topo;
+        queue<int>q;
         for(int i=0;i<graph.size();i++)
         {
             for(auto it:graph[i])
             {
                 int u=it;
                 int v=i;
-                revAdj[u].push_back(v);
+                adjT[u].push_back(v);
                 indegree[v]++;
             }
         }
-        queue<int>q;
         for(int i=0;i<graph.size();i++)
         {
             if(!vis[i]&&indegree[i]==0)
@@ -26,16 +26,13 @@ public:
             int node=q.front();
             q.pop();
             topo.push_back(node);
-            for(auto it:revAdj[node])
+            for(auto it:adjT[node])
             {
-                if(!vis[it])
+                indegree[it]--;
+                if(!vis[it]&&indegree[it]==0)
                 {
-                    indegree[it]--;
-                    if(indegree[it]==0)
-                    {
-                        q.push(it);
-                        vis[it]=1;
-                    }
+                    q.push(it);
+                    vis[it]=1;
                 }
             }
         }
