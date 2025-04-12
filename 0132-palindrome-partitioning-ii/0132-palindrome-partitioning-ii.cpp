@@ -9,22 +9,18 @@ public:
         }
         return true;
     }
-    int solve(int i,string& s,vector<int>& dp)
-    {
-        if(i==s.length())
-        return 0;
-        if(dp[i]!=-1)
-        return dp[i];
-        int mini=INT_MAX;
-        for(int ind=i;ind<s.length();ind++)
-        {
-            if(isPalindrome(i,ind,s))
-            mini=min(mini,1+solve(ind+1,s,dp));
-        }
-        return dp[i]=mini;
-    }
     int minCut(string s) {
-        vector<int>dp(s.length(),-1);
-        return solve(0,s,dp)-1;
+        vector<int>dp(s.length()+1,0);
+        for(int i=s.length()-1;i>=0;i--)
+        {
+            int mini=INT_MAX;
+            for(int ind=i;ind<s.length();ind++)
+            {
+                if(isPalindrome(i,ind,s))
+                mini=min(mini,1+dp[ind+1]);
+            }
+            dp[i]=mini;
+        }
+        return dp[0]-1;
     }
 };
