@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0368-largest-divisible-subset) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
@@ -475,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -742,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
