@@ -1,32 +1,35 @@
 class Solution {
 public:
-    string getSignature(const string& s) {
-        vector<int> count(26, 0);
-        for (char c : s) {
-            count[c - 'a']++;
-        }
-
-        stringstream ss;
-        for (int i = 0; i < 26; i++) {
-            if (count[i] != 0) {
-                ss << (char)('a' + i) << count[i];
-            }
-        }
-        return ss.str();
-    }
-
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> result;
-        unordered_map<string, vector<string>> groups;
-
-        for (const string& s : strs) {
-            groups[getSignature(s)].push_back(s);
+        vector<vector<string>>ans;
+        unordered_map<string,vector<string>>mp;
+        for(int i=0;i<strs.size();i++)
+        {
+            int freq[26]={0};
+            string str=strs[i],key="";
+            for(int j=0;j<strs[i].size();j++)
+            {
+                freq[strs[i][j]-'a']++;
+            }
+            for(int i=0;i<26;i++)
+            {
+                if(freq[i]>0)
+                {
+                    string s(freq[i],'a'+i);
+                    key+=s;
+                }
+            }
+            mp[key].push_back(str);
         }
-
-        for (const auto& entry : groups) {
-            result.push_back(entry.second);
+        for(auto p:mp)
+        {
+            vector<string>v;
+            for(auto q:p.second)
+            {
+                v.push_back(q);
+            }
+            ans.push_back(v);
         }
-
-        return result;
+        return ans;
     }
 };
