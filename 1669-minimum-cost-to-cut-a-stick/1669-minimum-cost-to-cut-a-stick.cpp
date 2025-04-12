@@ -18,7 +18,21 @@ public:
         cuts.push_back(n);
         cuts.insert(cuts.begin(),0);
         sort(cuts.begin(),cuts.end());
-        vector<vector<int>>dp(sz+1,vector<int>(sz+1,-1));
-        return solve(1,sz,cuts,dp);
+        vector<vector<int>>dp(sz+2,vector<int>(sz+2,0));
+        for(int i=sz;i>=1;i--)
+        {
+            for(int j=1;j<=sz;j++)
+            {
+                if(i>j)
+                continue;
+                int mini=INT_MAX;
+                for(int ind=i;ind<=j;ind++)
+                {
+                    mini=min(mini,(cuts[j+1]-cuts[i-1])+dp[i][ind-1]+dp[ind+1][j]);
+                }
+                dp[i][j]=mini;
+            }
+        }
+        return dp[1][sz];
     }
 };
