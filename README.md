@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [0854-making-a-large-island](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0907-koko-eating-bananas](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0966-binary-subarrays-with-sum) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0792-binary-search) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
+| [0907-koko-eating-bananas](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2665-minimum-time-to-repair-cars](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2665-minimum-time-to-repair-cars) |
