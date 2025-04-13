@@ -6,17 +6,15 @@ public:
         {
             int mid=(low+high)/2;
             if(nums[mid]==target)
-                return true;
-            //both low and high are same and not the target, so trim the array
+            return true;
             else if(nums[low]==nums[mid]&&nums[mid]==nums[high])
             {
                 low++;
                 high--;
             }
-            //is left sorted
             else if(nums[low]<=nums[mid])
             {
-                if(nums[low]<=target&&target<=nums[mid])
+                if(target>=nums[low]&&target<=nums[mid])
                 {
                     high=mid-1;
                 }
@@ -24,9 +22,8 @@ public:
                     low=mid+1;
                 }
             }
-            //is right sorted
             else{
-                if(nums[high]>=target&&nums[mid]<=target)
+                if(target>=nums[mid]&&target<=nums[high])
                 {
                     low=mid+1;
                 }
