@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1646-kth-missing-positive-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1646-kth-missing-positive-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1646-kth-missing-positive-number) |
 | [2665-minimum-time-to-repair-cars](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2690-house-robber-iv) |
 | [3643-zero-array-transformation-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3643-zero-array-transformation-ii) |
