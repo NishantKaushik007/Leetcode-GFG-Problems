@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0493-reverse-pairs) |
+| [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -564,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0735-asteroid-collision) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -577,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0085-maximal-rectangle) |
+| [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [3001-apply-operations-to-maximize-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 ## Greedy
