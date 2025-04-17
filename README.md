@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2227-sum-of-subarray-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2227-sum-of-subarray-ranges) |
 | [2262-solving-questions-with-brainpower](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -578,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2227-sum-of-subarray-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3447-clear-digits) |
@@ -591,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2227-sum-of-subarray-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2227-sum-of-subarray-ranges) |
 | [3001-apply-operations-to-maximize-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 ## Greedy
 |  |
