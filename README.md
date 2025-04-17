@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1121-partition-array-for-maximum-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1121-partition-array-for-maximum-sum) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0735-asteroid-collision) |
+| [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -586,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0503-next-greater-element-ii) |
+| [0943-sum-of-subarray-minimums](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [3001-apply-operations-to-maximize-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 ## Greedy
