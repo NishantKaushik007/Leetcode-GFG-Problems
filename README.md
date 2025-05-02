@@ -377,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0287-find-the-duplicate-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2478-longest-nice-subarray) |
 | [2792-neighboring-bitwise-xor](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2792-neighboring-bitwise-xor) |
@@ -434,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -550,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -884,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2915-count-of-interesting-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2915-count-of-interesting-subarrays) |
