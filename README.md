@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
@@ -546,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
@@ -881,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2915-count-of-interesting-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2915-count-of-interesting-subarrays) |
