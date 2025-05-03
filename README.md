@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1121-partition-array-for-maximum-sum) |
@@ -653,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
