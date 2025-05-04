@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -460,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
