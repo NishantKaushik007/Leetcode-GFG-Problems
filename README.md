@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0792-binary-search) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -507,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1073-number-of-enclaves) |
@@ -542,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0868-push-dominoes) |
 | [0952-word-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0952-word-subsets) |
@@ -734,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
@@ -801,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0801-is-graph-bipartite) |
