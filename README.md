@@ -408,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0060-permutation-sequence) |
@@ -624,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0086-partition-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0138-copy-list-with-random-pointer) |
