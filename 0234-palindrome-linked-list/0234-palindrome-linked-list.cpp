@@ -13,7 +13,7 @@ public:
     ListNode* reverseList(ListNode* head)
     {
         ListNode* curr=head,*prev=NULL;
-        while(curr!=NULL)
+        while(curr)
         {
             ListNode* nex=curr->next;
             curr->next=prev;
@@ -23,20 +23,21 @@ public:
         return prev;
     }
     bool isPalindrome(ListNode* head) {
-        ListNode* slow=head,*fast=head;
-        while(fast->next!=NULL&&fast->next->next!=NULL)
+        ListNode* dummy=new ListNode(),*slow=dummy,*fast=dummy;
+        dummy->next=head;
+        while(fast!=NULL&&fast->next!=NULL)
         {
             slow=slow->next;
             fast=fast->next->next;
         }
         ListNode* revHead=reverseList(slow->next);
         slow=head;
-        while(revHead!=NULL)
+        while(revHead)
         {
-            if(slow->val!=revHead->val)
+            if(revHead->val!=slow->val)
             return false;
-            slow=slow->next;
             revHead=revHead->next;
+            slow=slow->next;
         }
         return true;
     }
