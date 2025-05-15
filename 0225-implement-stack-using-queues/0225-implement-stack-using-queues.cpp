@@ -6,38 +6,32 @@ public:
     }
     
     void push(int x) {
+        int n=q.size();
         q.push(x);
-        if(q.size()>1)
+        for(int i=0;i<n;i++)
         {
-            int times=q.size()-1;
-            while(times--)
-            {
-                int val=q.front();
-                q.pop();
-                q.push(val);
-            }
+            q.push(q.front());
+            q.pop();
         }
     }
     
     int pop() {
-        if(!empty())
-        {
-            int val=q.front();
-            q.pop();
-            return val;
-        }
+        if(empty())
         return -1;
+        int ele=q.front();
+        q.pop();
+        return ele;
     }
     
     int top() {
-        if(!empty())
-            return q.front();
+        if(empty())
         return -1;
+        return q.front();
     }
     
     bool empty() {
         if(q.size()==0)
-            return true;
+        return true;
         return false;
     }
 };
