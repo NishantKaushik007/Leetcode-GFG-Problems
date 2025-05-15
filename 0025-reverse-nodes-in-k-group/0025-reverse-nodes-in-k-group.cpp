@@ -25,7 +25,7 @@ public:
     ListNode* findKthNode(ListNode* temp,int k)
     {
         k-=1;
-        while(k>0&&temp!=NULL)
+        while(k>0&&temp)
         {
             k--;
             temp=temp->next;
