@@ -14,15 +14,16 @@ public:
         if(head==NULL||head->next==NULL)
         return head;
         ListNode* curr=head;
-        int c=1;
+        int len=1;
         while(curr->next!=NULL)
         {
-            c++;
+            len++;
             curr=curr->next;
         }
         curr->next=head;
-        k=c-(k%c);
-        while(k--)
+        k=len-(k%len);
+        cout<<k;
+        for(int i=0;i<k;i++)
         curr=curr->next;
         head=curr->next;
         curr->next=NULL;
