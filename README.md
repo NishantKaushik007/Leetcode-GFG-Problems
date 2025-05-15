@@ -652,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0173-binary-search-tree-iterator) |
+| [0225-implement-stack-using-queues](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
@@ -965,6 +966,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0173-binary-search-tree-iterator) |
+| [0225-implement-stack-using-queues](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0225-implement-stack-using-queues) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0937-online-stock-span) |
@@ -996,6 +998,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0239-sliding-window-maximum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2527-count-subarrays-with-fixed-bounds) |
