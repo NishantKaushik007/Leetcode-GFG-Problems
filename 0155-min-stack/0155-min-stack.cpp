@@ -13,30 +13,34 @@ public:
             mini=val;
         }
         else{
-            if(val>mini)
-            st.push(val);
-            else{
+            if(val<mini)
+            {
                 st.push(2LL*val-mini);
                 mini=val;
-            } 
+            }
+            else
+            st.push(val);
         }
     }
     
     void pop() {
         if(st.empty())
         return;
-        else if(st.top()<mini)
-        mini=2LL*mini-st.top();
+        if(st.top()<mini)
+        {
+            mini=2LL*mini-st.top();
+        }
         st.pop();
     }
     
     int top() {
         if(st.empty())
         return -1;
-        else if(st.top()>mini)
+        if(st.top()<mini)
+        {
+            return mini;
+        }
         return (int)st.top();
-        else
-        return mini;
     }
     
     int getMin() {
