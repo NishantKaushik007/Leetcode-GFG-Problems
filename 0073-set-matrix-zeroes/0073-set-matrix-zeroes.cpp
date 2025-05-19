@@ -20,9 +20,7 @@ public:
             for(int j=m-1;j>0;j--)
             {
                 if(matrix[0][j]==0||matrix[i][0]==0)
-                {
-                    matrix[i][j]=0;
-                }
+                matrix[i][j]=0;
             }
             if(col0==0)
             matrix[i][0]=0;
