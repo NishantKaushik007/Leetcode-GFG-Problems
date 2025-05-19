@@ -6,25 +6,21 @@ public:
         int left=low,right=mid+1,count=0;
         while(left<=mid&&right<=high)
         {
-            if(nums[left]>2ll*nums[right])
+            if(nums[left]>2LL*nums[right])
             {
                 count+=(mid-left+1);
                 right++;
             }
-            else{
-                left++;
-            }
+            else
+            left++;
         }
         left=low,right=mid+1;
         while(left<=mid&&right<=high)
         {
             if(nums[left]>nums[right])
-            {
-                v.push_back(nums[right++]);
-            }
-            else{
-                v.push_back(nums[left++]);
-            }
+            v.push_back(nums[right++]);
+            else
+            v.push_back(nums[left++]);
         }
         while(left<=mid)
         v.push_back(nums[left++]);
