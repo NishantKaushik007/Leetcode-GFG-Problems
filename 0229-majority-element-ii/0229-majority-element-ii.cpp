@@ -5,7 +5,11 @@ public:
         int ele1=-1,ele2=-1,count1=0,count2=0;
         for(int i=0;i<nums.size();i++)
         {
-            if(count1==0)
+            if(nums[i]==ele1)
+            count1++;
+            else if(nums[i]==ele2)
+            count2++;
+            else if(count1==0)
             {
                 ele1=nums[i];
                 count1=1;
@@ -15,10 +19,6 @@ public:
                 ele2=nums[i];
                 count2=1;
             }
-            if(nums[i]==ele1)
-            count1++;
-            else if(nums[i]==ele2)
-            count2++;
             else{
                 count1--;
                 count2--;
