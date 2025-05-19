@@ -8,8 +8,8 @@ public:
             swap(nums[low++],nums[mid++]);
             else if(nums[mid]==1)
             mid++;
-            else
-            swap(nums[mid],nums[high--]);
+            else if(nums[mid]==2)
+            swap(nums[high--],nums[mid]);
         }
     }
 };
