@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0085-maximal-rectangle) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0287-find-the-duplicate-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -726,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0131-palindrome-partitioning) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
