@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2690-house-robber-iv) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -619,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3194-find-words-containing-character) |
@@ -991,6 +993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2358-number-of-ways-to-split-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2915-count-of-interesting-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2915-count-of-interesting-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3639-zero-array-transformation-i) |
