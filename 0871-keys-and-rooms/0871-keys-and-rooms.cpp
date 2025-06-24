@@ -1,16 +1,8 @@
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
-        vector<int>vis(rooms.size(),0),adj[rooms.size()];
-        for(int i=0;i<rooms.size();i++)
-        {
-            for(int it:rooms[i])
-            {
-                int u=i;
-                int v=it;
-                adj[u].push_back(v);
-            }
-        }
+        int n=rooms.size();
+        vector<int>vis(n,0);
         queue<int>q;
         q.push(0);
         vis[0]=1;
@@ -18,7 +10,7 @@ public:
         {
             int node=q.front();
             q.pop();
-            for(auto it:adj[node])
+            for(auto it:rooms[node])
             {
                 if(!vis[it])
                 {
@@ -27,9 +19,9 @@ public:
                 }
             }
         }
-        for(int i=0;i<rooms.size();i++)
+        for(int i=0;i<n;i++)
         {
-            if(vis[i]==0)
+            if(vis[i]!=1)
             return false;
         }
         return true;
