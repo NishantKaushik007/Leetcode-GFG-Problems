@@ -512,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
+| [2455-node-with-highest-edge-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2455-node-with-highest-edge-score) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -976,6 +977,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2438-find-closest-node-to-given-two-nodes) |
+| [2455-node-with-highest-edge-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2455-node-with-highest-edge-score) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
