@@ -30,6 +30,7 @@ public:
         }
     }
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        vector<int>ans;
         unordered_map<TreeNode*,TreeNode*>parent;
         findParent(root,parent);
         unordered_map<TreeNode*,bool>vis;
@@ -39,7 +40,8 @@ public:
         int count=0;
         while(!q.empty())
         {
-            vector<int>v;
+            if(count++==k)
+            break;
             int size=q.size();
             for(int i=0;i<size;i++)
             {
@@ -60,14 +62,13 @@ public:
                     vis[parent[root]]=true;
                     q.push(parent[root]);
                 }
-                v.push_back(root->val);
-            }
-            count++;
-            if(count==k+1)
-            {
-                return v;
             }
         }
-        return {};
+        while(!q.empty())
+        {
+            ans.push_back(q.front()->val);
+            q.pop();
+        }
+        return ans;
     }
 };
