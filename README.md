@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
+| [0238-product-of-array-except-self](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0300-longest-increasing-subsequence) |
@@ -1049,6 +1050,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0238-product-of-array-except-self) |
 | [0966-binary-subarrays-with-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
