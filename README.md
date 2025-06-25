@@ -832,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -875,6 +876,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1073-number-of-enclaves) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1300-critical-connections-in-a-network](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1300-critical-connections-in-a-network) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
@@ -919,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
@@ -951,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1073-number-of-enclaves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
