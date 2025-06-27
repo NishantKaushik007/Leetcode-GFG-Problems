@@ -634,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0583-delete-operation-for-two-strings) |
+| [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
@@ -837,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -875,6 +877,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
+| [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
@@ -926,6 +929,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
