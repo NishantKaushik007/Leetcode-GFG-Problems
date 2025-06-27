@@ -1,18 +1,16 @@
 class Solution {
 public:
     int findTheWinner(int n, int k) {
-        queue<int>q;
+        vector<int>circle;
         for(int i=1;i<=n;i++)
-        q.push(i);
-        while(q.size()>1)
+        circle.push_back(i);
+        int start=0;
+        while(circle.size()>1)
         {
-            for(int i=1;i<k;i++)
-            {
-                q.push(q.front());
-                q.pop();
-            }
-            q.pop();
+            int removalInd=(start+k-1)%circle.size();
+            circle.erase(circle.begin()+removalInd);
+            start=removalInd;
         }
-        return q.front();
+        return circle.front();
     }
 };
