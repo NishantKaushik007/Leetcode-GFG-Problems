@@ -1,38 +1,37 @@
 class Solution {
 public:
-    bool dfs(int node,vector<int> adj[],vector<int>& vis,vector<int>& pathVis)
-    {
-        vis[node]=1;
-        pathVis[node]=1;
-        for(auto it:adj[node])
-        {
-            if(!vis[it])
-            {
-                if(dfs(it,adj,vis,pathVis)==true)
-                return true;
-            }
-            else if(pathVis[it])
-            return true;
-        }
-        pathVis[node]=0;
-        return false;
-    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>adj[numCourses];
-        vector<int>vis(numCourses,0),pathVis(numCourses,0);
+        vector<int>adj[numCourses],indegree(numCourses,0);
         for(auto it:prerequisites)
         {
-            int u=it[0];
-            int v=it[1];
+            int u=it[1];
+            int v=it[0];
             adj[u].push_back(v);
+            indegree[v]++;
+        }
+        queue<int>q;
+        for(int i=0;i<numCourses;i++)
+        {
+            if(indegree[i]==0)
+            q.push(i);
+        }
+        while(!q.empty())
+        {
+            int node=q.front();
+            q.pop();
+            for(int it:adj[node])
+            {
+                indegree[it]--;
+                if(indegree[it]==0)
+                {
+                    q.push(it);
+                }
+            }
         }
         for(int i=0;i<numCourses;i++)
         {
-            if(!vis[i])
-            {
-                if(dfs(i,adj,vis,pathVis)==true)
-                return false;
-            }
+            if(indegree[i]!=0)
+            return false;
         }
         return true;
     }
