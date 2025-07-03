@@ -390,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3321-type-of-triangle](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3321-type-of-triangle) |
 | [3548-find-the-count-of-good-integers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3548-find-the-count-of-good-integers) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3637-count-number-of-balanced-permutations) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
 |  |
 | ------- |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2050-count-good-numbers) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -1154,6 +1157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3447-clear-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3447-clear-digits) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Data Stream
 |  |
 | ------- |
