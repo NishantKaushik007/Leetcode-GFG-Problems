@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
@@ -364,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
@@ -516,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0242-valid-anagram) |
+| [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
@@ -1148,6 +1151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0225-implement-stack-using-queues) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0937-online-stock-span) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1246,4 +1250,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1300-critical-connections-in-a-network) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
