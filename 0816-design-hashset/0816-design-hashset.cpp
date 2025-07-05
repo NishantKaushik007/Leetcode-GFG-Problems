@@ -1,42 +1,48 @@
 class MyHashSet {
-    vector<list<int>>buckets;
+    vector<int> arr;
     int n;
 public:
     MyHashSet() {
-        n=15000;
-        buckets.resize(n);
+        n = 15000;
+        arr.resize(n, -1);
     }
     
-    int getIndex(int key)
-    {
-        return key%n;
+    int getIndex(int key) {
+        return key % n;
     }
 
     void add(int key) {
-        int index=getIndex(key);
-        auto it=find(buckets[index].begin(),buckets[index].end(),key);
-        if(it==buckets[index].end())
-        buckets[index].emplace_back(key);
+        int index = getIndex(key);
+        int start = index;
+        while (arr[index] != -1 && arr[index] != -2 && arr[index] != key) {
+            index = (index + 1) % n;
+            if (index == start) return; // full
+        }
+        arr[index] = key;
     }
     
     void remove(int key) {
-        int index=getIndex(key);
-        auto it=find(buckets[index].begin(),buckets[index].end(),key);
-        if(it!=buckets[index].end())
-        buckets[index].erase(it);
+        int index = getIndex(key);
+        int start = index;
+        while (arr[index] != -1) {
+            if (arr[index] == key) {
+                arr[index] = -2; // tombstone marker for deleted
+                return;
+            }
+            index = (index + 1) % n;
+            if (index == start) break;
+        }
     }
     
     bool contains(int key) {
-        int index=getIndex(key);
-        auto it=find(buckets[index].begin(),buckets[index].end(),key);
-        return it!=buckets[index].end();
+        int index = getIndex(key);
+        int start = index;
+        while (arr[index] != -1) {
+            if (arr[index] == key)
+                return true;
+            index = (index + 1) % n;
+            if (index == start) break;
+        }
+        return false;
     }
 };
-
-/**
- * Your MyHashSet object will be instantiated and called as such:
- * MyHashSet* obj = new MyHashSet();
- * obj->add(key);
- * obj->remove(key);
- * bool param_3 = obj->contains(key);
- */
