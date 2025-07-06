@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2048-build-array-from-permutation) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
@@ -550,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1512-design-underground-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1512-design-underground-system) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2107-find-unique-binary-string) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -1169,6 +1171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-design-underground-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1512-design-underground-system) |
 | [1582-design-browser-history](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1582-design-browser-history) |
 | [1708-design-parking-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1708-design-parking-system) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
 ## Simulation
 |  |
