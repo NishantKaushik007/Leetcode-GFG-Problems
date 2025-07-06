@@ -1089,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1955-seat-reservation-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1955-seat-reservation-manager) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -1183,6 +1184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-design-underground-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1512-design-underground-system) |
 | [1582-design-browser-history](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1582-design-browser-history) |
 | [1708-design-parking-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1708-design-parking-system) |
+| [1955-seat-reservation-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1955-seat-reservation-manager) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
 ## Simulation
