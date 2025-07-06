@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
 | [0854-making-a-large-island](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -770,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0237-delete-node-in-a-linked-list) |
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [0908-middle-of-the-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1582-design-browser-history](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1582-design-browser-history) |
 ## Stack
@@ -1168,6 +1171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [0937-online-stock-span](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0937-online-stock-span) |
 | [1249-snapshot-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1249-snapshot-array) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1269,6 +1273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Biconnected Component
 |  |
