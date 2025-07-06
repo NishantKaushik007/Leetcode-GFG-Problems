@@ -1,24 +1,56 @@
 class MyHashMap {
-    vector<int>mp;
-    int size;
+    vector<list<pair<int,int>>>buckets;
+    int size=1000;
 public:
     MyHashMap() {
-        size=1e6+1;
-        mp.resize(size,-1);
+        buckets.resize(size);
+    }
+
+    int getIndex(int key)
+    {
+        return key%size;
     }
     
     void put(int key, int value) {
-        mp[key]=value;
+        int bucketNo=getIndex(key);
+        auto& chain=buckets[bucketNo];
+        for(auto& it:chain)
+        {
+            if(key==it.first)
+            {
+                it.second=value;
+                return;
+            }
+        }
+        chain.emplace_back(make_pair(key,value));
     }
     
     int get(int key) {
-        if(mp[key]!=-1)
-        return mp[key];
+        int bucketNo=getIndex(key);
+        auto& chain=buckets[bucketNo];
+        if(chain.empty())
+        return -1;
+        for(auto& it:chain)
+        {
+            if(key==it.first)
+            {
+                return it.second;
+            }
+        }
         return -1;
     }
     
     void remove(int key) {
-        mp[key]=-1;
+        int bucketNo=getIndex(key);
+        auto& chain=buckets[bucketNo];
+        for(auto it=chain.begin();it!=chain.end();it++)
+        {
+            if(key==it->first)
+            {
+                chain.erase(it);
+                return;
+            }
+        }
     }
 };
 
