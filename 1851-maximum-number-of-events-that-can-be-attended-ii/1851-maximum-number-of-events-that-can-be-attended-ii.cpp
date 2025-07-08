@@ -1,26 +1,43 @@
 class Solution {
 public:
-    int solve(int i,int k,vector<vector<int>>& events,vector<vector<int>>& dp)
+
+int BS(int index,vector<vector<int>>&events,int value)
+{
+    int lo = index;
+    int hi = events.size()-1;
+    int req = -1;
+    while(hi>=lo)
     {
-        if(i==events.size()||k==0)
-        return 0;
-        if(dp[i][k]!=-1)
-        return dp[i][k];
-        int notAttend=solve(i+1,k,events,dp);
-        int attend=0;
-        int j=i+1;
-        for(;j<events.size();j++)
-        {
-            if(events[i][1]<events[j][0])
-            break;
-        }
-        attend=events[i][2]+solve(j,k-1,events,dp);
-        return dp[i][k]=max(notAttend,attend);
+      int mid = lo+(hi-lo)/2;
+      if(events[mid][0] > value)
+      {
+        req = mid;
+        hi = mid-1;
+      }
+      else lo = mid+1;
     }
-    int maxValue(vector<vector<int>>& events, int k) {
-        int n=events.size();
-        sort(events.begin(),events.end());
-        vector<vector<int>>dp(n,vector<int>(k+1,-1));
-        return solve(0,k,events,dp);
-    }
+    return req;
+}
+
+int helper(int i,vector<vector<int>>&events,int k, vector<vector<int>>&dp)
+{
+  if(i >= events.size() || k == 0 || i == -1) return 0;
+  if(dp[i][k] != -1) return dp[i][k];
+
+  int index = BS(i+1,events,events[i][1]);
+
+  int c1 = events[i][2] + helper(index,events,k-1,dp);
+  int c2 = helper(i+1,events,k,dp);
+
+  return dp[i][k] = max(c1,c2);
+}
+
+
+ int maxValue(vector<vector<int>>& events, int k){
+
+    sort(events.begin(),events.end());
+    int n = events.size();
+    vector<vector<int>>dp(n+5,vector<int>(k+1,-1));
+    return helper(0,events,k,dp);
+  }
 };
