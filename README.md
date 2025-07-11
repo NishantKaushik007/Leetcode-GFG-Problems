@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0455-assign-cookies) |
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
@@ -690,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0451-sort-characters-by-frequency) |
@@ -954,6 +957,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0341-flatten-nested-list-iterator) |
 | [0386-lexicographical-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0386-lexicographical-numbers) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
@@ -1036,6 +1040,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
@@ -1073,6 +1078,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
@@ -1124,6 +1130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
