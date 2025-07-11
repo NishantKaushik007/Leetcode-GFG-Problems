@@ -918,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0341-flatten-nested-list-iterator) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
+| [0538-convert-bst-to-greater-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0783-search-in-a-binary-search-tree) |
@@ -959,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0399-evaluate-division) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
+| [0538-convert-bst-to-greater-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0547-number-of-provinces) |
 | [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
@@ -1013,6 +1015,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0508-most-frequent-subtree-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0508-most-frequent-subtree-sum) |
+| [0538-convert-bst-to-greater-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0783-search-in-a-binary-search-tree) |
@@ -1146,6 +1149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0538-convert-bst-to-greater-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0538-convert-bst-to-greater-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
