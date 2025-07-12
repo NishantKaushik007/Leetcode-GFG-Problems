@@ -11,13 +11,13 @@
  */
 class Solution {
 public:
-    TreeNode* bst(int& ind,vector<int>& preorder,int upperLimit)
+    TreeNode* bst(int& i,vector<int>& preorder,int maxi)
     {
-        if(ind==preorder.size()||preorder[ind]>upperLimit)
+        if(i==preorder.size()||preorder[i]>maxi)
         return NULL;
-        TreeNode* root=new TreeNode(preorder[ind++]);
-        root->left=bst(ind,preorder,root->val);
-        root->right=bst(ind,preorder,upperLimit);
+        TreeNode* root=new TreeNode(preorder[i++]);
+        root->left=bst(i,preorder,root->val);
+        root->right=bst(i,preorder,maxi);
         return root;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
