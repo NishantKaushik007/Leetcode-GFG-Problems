@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1582-design-browser-history](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1582-design-browser-history) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1656-count-good-triplets) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1249-snapshot-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1249-snapshot-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1646-kth-missing-positive-number) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2047-find-a-peak-element-ii) |
