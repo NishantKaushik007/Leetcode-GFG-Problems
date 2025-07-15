@@ -745,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3396-valid-word](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3396-valid-word) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
