@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1813-maximum-erasure-value](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -583,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1512-design-underground-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1512-design-underground-system) |
+| [1813-maximum-erasure-value](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -780,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1813-maximum-erasure-value](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1813-maximum-erasure-value) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2478-longest-nice-subarray) |
