@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0826-soup-servings) |
 | [0868-push-dominoes](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0826-soup-servings) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -1423,4 +1425,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
