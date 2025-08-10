@@ -375,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0721-accounts-merge) |
 | [0853-most-profit-assigning-work](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0853-most-profit-assigning-work) |
+| [0900-reordered-power-of-2](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0900-reordered-power-of-2) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1129-longest-string-chain) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0826-soup-servings) |
+| [0900-reordered-power-of-2](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0900-reordered-power-of-2) |
 | [1370-count-number-of-nice-subarrays](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0817-design-hashmap) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0900-reordered-power-of-2](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0940-fruit-into-baskets) |
@@ -655,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0692-top-k-frequent-words) |
+| [0900-reordered-power-of-2](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0900-reordered-power-of-2) |
 | [1160-letter-tile-possibilities](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1364-tuple-with-same-product) |
@@ -1381,6 +1385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0900-reordered-power-of-2](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
