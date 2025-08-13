@@ -415,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0380-insert-delete-getrandom-o1) |
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0234-palindrome-linked-list) |
+| [0326-power-of-three](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0326-power-of-three) |
 | [0795-k-th-symbol-in-grammar](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2050-count-good-numbers) |
