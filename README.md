@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0540-single-element-in-a-sorted-array) |
@@ -488,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0498-diagonal-traverse) |
 | [0733-flood-fill](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0967-minimum-falling-path-sum) |
@@ -1358,6 +1360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0735-asteroid-collision) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1708-design-parking-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1708-design-parking-system) |
