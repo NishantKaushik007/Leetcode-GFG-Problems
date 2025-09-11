@@ -416,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2689-rearranging-fruits) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2887-sort-vowels-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2887-sort-vowels-in-a-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -844,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2887-sort-vowels-in-a-string](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2887-sort-vowels-in-a-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3194-find-words-containing-character) |
