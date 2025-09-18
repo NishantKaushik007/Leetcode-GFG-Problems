@@ -704,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3678-design-task-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3678-design-task-manager) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -768,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
+| [3678-design-task-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3791-fruits-into-baskets-iii) |
 ## Union Find
@@ -1292,6 +1294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3647-zero-array-transformation-iii) |
+| [3678-design-task-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3678-design-task-manager) |
 ## Shortest Path
 |  |
 | ------- |
@@ -1388,6 +1391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1955-seat-reservation-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1955-seat-reservation-manager) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/2434-design-a-number-container-system) |
+| [3678-design-task-manager](https://github.com/NishantKaushik007/Leetcode-GFG-Problems/tree/master/3678-design-task-manager) |
 ## Simulation
 |  |
 | ------- |
